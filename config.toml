@@ -1,0 +1,54 @@
+title = "Kennedy Casey"
+baseURL = "https://kennedycasey.github.io/"
+theme = "researcher"
+disableKinds = ["taxonomy", "term"]
+enableEmoji = true
+math = false          # enable KaTeX (https://katex.org/) globally
+ai = true
+googleAnalytics = ""  # add your tracking id
+
+[params]
+  author = "Kennedy Casey"
+  description = "Lab Manager. Chatter Lab. Department of Comparative Human Development. University of Chicago"
+  favicon = ""  # path to a .ico to use as favicon
+  logo = ""  # url or path to a logo to put in the header
+  [params.footer]
+    text = "© Copyright 2022 Kennedy Casey"
+  [params.style]
+    fontFamily = "sans-serif"
+    pageWidth = "750px"
+    avatarSize = "200px"
+    colorBlack = "#222222"
+    colorRed = "#005b96"
+  [[params.socialIcons]]
+    icon = "fas fa-envelope"
+    title = "Email"
+    url = "mailto:kbcasey@uchicago.edu"
+  [[params.socialIcons]]
+    icon = "fab fa-github"
+    title = "GitHub"
+    url = "https://github.com/kennedycasey"
+  [[params.socialIcons]]
+    icon = "fab fa-twitter"
+    title = "Twitter"
+    url = "https://twitter.com/kennedybcasey"
+
+[permalinks]
+  "/" = "/:filename"
+
+[menu]
+  [[menu.main]]
+    name = "About"
+    url = "/about"
+    weight = 1
+[[menu.main]]
+    name = "Papers"
+    url = "/papers"
+    weight = 2
+  [[menu.main]]
+    name = "CV"
+    url = "/KennedyCasey-CV.pdf"
+    weight = 3
+
+[markup.goldmark.renderer]
+  unsafe = true  # allow raw HTML in markdown files

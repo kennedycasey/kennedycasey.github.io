@@ -1,34 +1,6 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?>
-<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
-  <channel>
-    <title>About on Kennedy Casey</title>
-    <link>https://kennedycasey.github.io/</link>
-    <description>Recent content in About on Kennedy Casey</description>
-    <generator>Hugo -- gohugo.io</generator><atom:link href="https://kennedycasey.github.io/index.xml" rel="self" type="application/rss+xml" />
-    <item>
-      <title>About</title>
-      <link>https://kennedycasey.github.io/about/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
-      <guid>https://kennedycasey.github.io/about/</guid>
-      <description>About Me Lab Manager, Chatter Lab
-Department of Comparative Human Development, University of Chicago
-I currently work with Dr. Marisa Casillas at the University of Chicago as the manager for the Chatter Lab. Previously, I completed my BA in Psychology at Princeton University, where I worked with Dr. Casey Lew-Williams as a thesis student in the Princeton Baby Lab.
-I study early language learning. My research focuses on how young children extract meaningful information from complex, everyday communicative contexts and explores which cues (linguistic, environmental, social, etc.</description>
-    </item>
-    
-    <item>
-      <title>Papers</title>
-      <link>https://kennedycasey.github.io/papers/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
-      <guid>https://kennedycasey.github.io/papers/</guid>
-      <description>Papers Selected Preprints Casey, K., Potter, C. E., Lew-Williams, C., &amp;amp; Wojcik, E. H. (under review). Moving beyond “nouns in the lab”: Using naturalistic data to understand why infants’ first words include uh-oh and hi.
-preprint data bibtex
-Journal Articles Baek, S., Marques, S., Casey, K., Testerman, M., McGill, F., &amp;amp; Emberson, L. (provisionally accepted). Attrition rate in infant fNIRS research: A meta-analysis. Infancy.
-preprint bibtex
-Casey, K., Novick, K., &amp;amp; Lourenco, S.</description>
-    </item>
-    
-  </channel>
-</rss>
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>About on Kennedy Casey</title><link>https://kennedycasey.github.io/</link><description>Recent content in About on Kennedy Casey</description><generator>Hugo -- gohugo.io</generator><atom:link href="https://kennedycasey.github.io/index.xml" rel="self" type="application/rss+xml"/><item><title>About</title><link>https://kennedycasey.github.io/about/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://kennedycasey.github.io/about/</guid><description>About Me Lab Manager, Chatter Lab Department of Comparative Human Development, University of Chicago
+I currently work with Dr. Marisa Casillas at the University of Chicago as the manager for the Chatter Lab. Previously, I completed my BA in Psychology at Princeton University, where I worked with Dr. Casey Lew-Williams as a thesis student in the Princeton Baby Lab. My research focuses on how young children build context-rich word representations from their everyday language input.</description></item><item><title>Papers</title><link>https://kennedycasey.github.io/papers/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://kennedycasey.github.io/papers/</guid><description>Papers Selected Preprints Casey, K., Potter, C. E., Lew-Williams, C., &amp;amp; Wojcik, E. H. (submitted). Moving beyond “nouns in the lab”: Using naturalistic data to understand why infants’ first words include uh-oh and hi.
+preprint data
+Journal Articles Baek, S., Marques, S., Casey, K., Testerman, M., McGill, F., &amp;amp; Emberson, L. (accepted). Attrition rate in infant fNIRS research: A meta-analysis. Infancy.
+preprint
+Casey, K., Novick, K., &amp;amp; Lourenco, S. F. (2021).</description></item></channel></rss>

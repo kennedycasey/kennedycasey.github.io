@@ -19,7 +19,7 @@ googleAnalytics = ""  # add your tracking id
     pageWidth = "750px"
     avatarSize = "185px"
     colorBlack = "#222222"
-    colorRed = "#005b96"
+    colorRed = "#2e8857"
   [[params.socialIcons]]
     icon = "fas fa-envelope"
     title = "Email"

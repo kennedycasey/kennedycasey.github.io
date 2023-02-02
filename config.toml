@@ -45,10 +45,14 @@ googleAnalytics = ""  # add your tracking id
     name = "Papers"
     url = "/papers"
     weight = 2
+[[menu.main]]
+    name = "Presentations"
+    url = "/presentations"
+    weight = 3
   [[menu.main]]
     name = "CV"
     url = "/KennedyCasey-CV.pdf"
-    weight = 3
+    weight = 4
 
 [markup.goldmark.renderer]
   unsafe = true  # allow raw HTML in markdown files

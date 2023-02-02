@@ -17,4 +17,4 @@ Lab](http://babylab.princeton.edu/). My research focuses on how young children b
 
 **Casey, K.**, & Casillas, M. (2022). <span style="color:#9ea6a2">From doggy to dog: Developmental shifts in children’s use of register-specific words</span>. Poster presented at the Boston University Conference on Language Development. Boston, MA, USA.
 
-<a href="/presentations/Casey-Casillas-BUCLD2022.pdf" class="button" target="_blank">poster</a>
+<a href="/posters/Casey-Casillas-BUCLD2022.pdf" class="button" target="_blank">poster</a>

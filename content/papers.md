@@ -10,11 +10,13 @@ title = "Papers"
 <a href="https://psyarxiv.com/xbyr3/" class="button" target="_blank">preprint</a>
 <a href="https://osf.io/tdbqn/" class="button" target="_blank"> data</a>
 
-Baek, S., Marques, S., **Casey, K.**, Testerman, M., McGill, F., & Emberson, L. (in press). <span style="color:#9ea6a2">Attrition rate in infant fNIRS research: A meta-analysis</span>. _Infancy_.
-
-<a href="https://www.biorxiv.org/content/10.1101/2021.06.15.448526v1.abstract" class="button" target="_blank">preprint</a>
-
 #### Journal Articles
+
+Baek, S., Marques, S., **Casey, K.**, Testerman, M., McGill, F., & Emberson, L. (2023). <span style="color:#9ea6a2">Attrition rate in infant fNIRS research: A meta-analysis</span>. _Infancy, XX_.
+
+<a href="/papers/baek2023attrition.pdf" class="button" target="_blank">pdf</a> 
+<a href="https://doi.org/10.1111/infa.12521" class="button" target="_blank">doi</a> 
+<a href="https://github.com/soribaek/Attrition-Rate-in-Infant-fNIRS-Research">data</a>
 
 **Casey, K.**, Novick, K., & Lourenco, S. F. (2021). <span style="color:#9ea6a2">Sixty years of gender representation in children’s books: Conditions associated with overrepresentation of male versus female protagonists</span>. _PLOS ONE, 16_(12), e0260566.
 

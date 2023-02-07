@@ -16,7 +16,7 @@ Baek, S., Marques, S., **Casey, K.**, Testerman, M., McGill, F., & Emberson, L. 
 
 <a href="/papers/baek2023attrition.pdf" class="button" target="_blank">pdf</a> 
 <a href="https://doi.org/10.1111/infa.12521" class="button" target="_blank">doi</a> 
-<a href="https://github.com/soribaek/Attrition-Rate-in-Infant-fNIRS-Research">data</a>
+<a href="https://github.com/soribaek/Attrition-Rate-in-Infant-fNIRS-Research" class="button" target="_blank">data</a>
 
 **Casey, K.**, Novick, K., & Lourenco, S. F. (2021). <span style="color:#9ea6a2">Sixty years of gender representation in children’s books: Conditions associated with overrepresentation of male versus female protagonists</span>. _PLOS ONE, 16_(12), e0260566.
 

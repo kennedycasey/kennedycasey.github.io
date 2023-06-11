@@ -19,7 +19,7 @@ googleAnalytics = ""  # add your tracking id
     pageWidth = "750px"
     avatarSize = "185px"
     colorBlack = "#222222"
-    colorRed = "#2e8857"
+    colorRed = "#68A61C"
   [[params.socialIcons]]
     icon = "fas fa-envelope"
     title = "Email"
@@ -51,7 +51,7 @@ googleAnalytics = ""  # add your tracking id
     weight = 3
   [[menu.main]]
     name = "CV"
-    url = "/KennedyCasey-CV.pdf"
+    url = "https://docs.google.com/document/d/1To6PfI5vkji00wZITXVP-4Hbx5J5Qd79cxUalYQfNfs/edit?usp=sharing"
     weight = 4
 
 [markup.goldmark.renderer]

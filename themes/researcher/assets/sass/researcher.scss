@@ -4,7 +4,7 @@ $avatar-size: {{ .Param "style.avatarSize" | default "90px;" }};
 
 // Colors
 $black: {{ .Param "style.colorBlack" | default "#222222" }};
-$red: {{ .Param "style.colorRed" | default "#dc3545" }};
+$red: {{ .Param "style.colorRed" | default "#8ea435" }};
 
 // Font
 $font-family: {{ .Param "style.fontFamily" | default "Inconsolata" }};
@@ -46,9 +46,9 @@ $y-medium: 1.0rem;
 /* add custom button */
 .button {
     background-color: none;
-    border: 2px solid #2e8857;
+    border: 2px solid #68A61C;
     border-radius: 4px;
-    color: #2e8857;
+    color: #68A61C;
     padding: 5px 5px;
     text-align: center;
     text-decoration: none;
@@ -57,7 +57,7 @@ $y-medium: 1.0rem;
 }
 
 .button:hover {
-    background-color: #2e8857;
+    background-color: #68A61C;
     color: white !important;
     text-decoration: none !important;
 }

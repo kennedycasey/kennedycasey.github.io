@@ -23,7 +23,7 @@ googleAnalytics = ""  # add your tracking id
   [[params.socialIcons]]
     icon = "fas fa-envelope"
     title = "Email"
-    url = "mailto:kbcasey@uchicago.edu"
+    url = "mailto:kcasey@princeton.edu"
   [[params.socialIcons]]
     icon = "fab fa-github"
     title = "GitHub"
@@ -51,7 +51,7 @@ googleAnalytics = ""  # add your tracking id
     weight = 3
   [[menu.main]]
     name = "CV"
-    url = "https://docs.google.com/document/d/1To6PfI5vkji00wZITXVP-4Hbx5J5Qd79cxUalYQfNfs/edit?usp=sharing"
+    url = "/kennedycasey-cv.pdf"
     weight = 4
 
 [markup.goldmark.renderer]

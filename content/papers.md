@@ -4,13 +4,12 @@ title = "Papers"
 
 ## Papers
 
-#### Selected Preprints
-**Casey, K.**, Potter, C. E., Lew-Williams, C., & Wojcik, E. H. (in revision). <span style="color:#9ea6a2">Moving beyond “nouns in the lab”: Using naturalistic data to understand why infants’ first words include uh-oh and hi</span>.
+#### Journal Articles
+
+**Casey, K.**, Potter, C. E., Lew-Williams, C., & Wojcik, E. H. (in press). <span style="color:#9ea6a2">Moving beyond “nouns in the lab”: Using naturalistic data to understand why infants’ first words include uh-oh and hi</span>. _Developmental Psychology_.
 
 <a href="https://psyarxiv.com/xbyr3/" class="button" target="_blank">preprint</a>
 <a href="https://osf.io/tdbqn/" class="button" target="_blank"> data</a>
-
-#### Journal Articles
 
 Baek, S., Marques, S., **Casey, K.**, Testerman, M., McGill, F., & Emberson, L. (2023). <span style="color:#9ea6a2">Attrition rate in infant fNIRS research: A meta-analysis</span>. _Infancy, 28_(3), 507-531.
 

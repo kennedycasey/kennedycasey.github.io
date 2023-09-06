@@ -12,7 +12,10 @@ title = "About"
 
 I am a first-year PhD student in Psychology at Princeton University. I work with [Dr. Casey Lew-Williams](https://psych.princeton.edu/person/casey-lew-williams) in the [Princeton Baby Lab](https://babylab.princeton.edu/). Previously, I worked with [Dr. Marisa Casillas](https://humdev.uchicago.edu/directory/marisa-casillas) at the University of Chicago as the manager for the [Chatter Lab](https://chatterlab.uchicago.edu/). Broadly speaking, my research focuses on how young children's everday language input shapes their early word representations.
 
-#### Recent/Upcoming Presentations
+<br>
+<br>
+
+### Recent/Upcoming Presentations
 
 <b><span style="color:#9ea6a2">Multimodal predictors of early noun knowledge in Tseltal</span></b> to be presented at the Boston University Conference on Language Development ([BUCLD](https://www.bu.edu/bucld/)) and Many Paths to Language ([MPaL](https://www.mpi.nl/events/many-paths-language-mpal-2023)).</font>
 

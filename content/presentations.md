@@ -5,6 +5,12 @@ title = "Presentations"
 ## Presentations
 
 ### Conference talks
+Jin, Y., Méndez Girón, J., Polian G., **Casey, K.**, & Casillas, M. (2023). Vocal maturity predicts adult responsiveness in a Tseltal Mayan community. Talk presented at the Boston University Conference on Language Development. Boston, MA, USA.
+
+<a href="/abstracts/Jin-et-al-BUCLD2023.pdf" class="button" target="_blank">abstract</a>
+
+Jin, Y., Méndez Girón, J., Polian G., **Casey, K.**, & Casillas, M. (2023). Vocal maturity predicts adult responsiveness in a Tseltal Mayan community. Talk presented at Many Paths to Language. Nijmegen, Netherlands.
+
 **Casey, K.**, Elliott, M., Mickiewicz, E., Silva Mandujano, A., Shorter, K., Duquette, M., Bergelson, E., & Casillas, M. (2022). <span style="color:#9ea6a2">Sticks, leaves, buckets, and bowls: Distributional patterns of children’s at-home object handling in two subsistence societies.</span> Talk presented at the Annual Meeting of the Cognitive Science Society. Toronto, ON, Canada.
 
 <a href="/papers/casey2022sticks.pdf" class="button" target="_blank">proceedings</a>
@@ -45,6 +51,20 @@ width="65%" height="225px">
 
 ### Conference posters
 
+**Casey, K.**, & Casillas, M. (2023). <span style="color:#9ea6a2">Multimodal predictors of early object noun recognition in Tseltal.</span> Poster presented at the Boston University Conference on Language Development. Boston, MA, USA. 
+
+<a href="/posters/Casey-Casillas-BUCLD2023.pdf" class="button" target="_blank">poster</a>
+<center>
+
+<embed src="/posters/Casey-Casillas-BUCLD2023.pdf#toolbar=0&navpanes=0&scrollbar=0"
+width="65%" height="225px">
+</embed> 
+</center>
+
+**Casey, K.**, & Casillas, M. (2023). <span style="color:#9ea6a2">Multimodal predictors of early object noun recognition in Tseltal.</span> Poster presented at Many Paths to Language. Nijmegen, Netherlands.
+
+<a href="/abstracts/Casey-Casillas-MPaL2023.pdf" class="button" target="_blank">abstract</a>
+
 **Casey, K.**, & Casillas, M. (2022). <span style="color:#9ea6a2">From doggy to dog: Developmental shifts in children’s use of register-specific words.</span> Poster presented at the Boston University Conference on Language Development. Boston, MA, USA. 
 
 <a href="/posters/Casey-Casillas-BUCLD2022.pdf" class="button" target="_blank">poster</a>
@@ -54,7 +74,6 @@ width="65%" height="225px">
 width="65%" height="225px">
 </embed> 
 </center>
-
 
 Sun, Q., Huang, C., **Casey, K.**, Cooper Borkenhagen, M., & Wang, T. (2022). <span style="color:#9ea6a2">Rates of gender representation in children’s literature across cultures: A comparison of US vs. Chinese children’s books.</span> Poster presented at the Annual Meeting of the Cognitive Science Society. Toronto, ON, Canada.
 

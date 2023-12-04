@@ -4,6 +4,12 @@ title = "Papers"
 
 ## Papers
 
+#### Selected preprints
+
+Casillas, M., & **Casey, K.** (under review). <span style="color:#9ea6a2">Daylong egocentric recordings in small- and large-scale language communities: A practical introduction</span>. _Advances in Child Development and Behavior_.
+
+<a href="https://osf.io/preprints/psyarxiv/b3jxs" class="button" target="_blank">preprint</a>
+
 #### Journal Articles
 
 **Casey, K.**, Potter, C. E., Lew-Williams, C., & Wojcik, E. H. (in press). <span style="color:#9ea6a2">Moving beyond “nouns in the lab”: Using naturalistic data to understand why infants’ first words include uh-oh and hi</span>. _Developmental Psychology, 59_(11), 2162-2173.

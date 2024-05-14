@@ -172,23 +172,13 @@ If we are interested in children's overall frequency of use of different words, 
 sample.word.frequencies <- get_tokens(collection = "Eng-NA", 
           role = "target_child", 
           token = c("apple", "ball", "car", "dog", "egg"))
-
-sample.word.frequencies <- sample.word.frequencies %>%
-  mutate(word = tolower(gloss)) %>%
-  filter(word %in% c("apple", "ball", "car", "dog", "egg"))
-
-sample.word.frequencies %>%
-group_by(word) %>%
-summarize(frequency = n()) %>%
-kable(align = "l") %>%
-scroll_box(height = "250px")
 ```
 
 Then, we can manipulate the `sample.word.frequencies` dataframe to explore whatever feature(s) of the data we are interested in.
 
 ::: {.callout-warning}
 ## Warning
-Make sure to manually check your output dataframe! Sometimes `get_types()` catches extra words that are not one of the words of interest or counts words differently depending on capitalization. Errors can arise if you are not careful about cleaning your data at this stage.
+Make sure to manually check your output dataframe! Sometimes `get_tokens()` catches extra words that are not one of the words of interest or counts words differently depending on capitalization. Errors can arise if you are not careful about cleaning your data at this stage.
 :::
 
 For instance, we can get a summary table of overall word frequencies summed across all children (after doing some necessary cleaning):
@@ -201,8 +191,7 @@ sample.word.frequencies <- sample.word.frequencies %>%
 sample.word.frequencies %>%
   group_by(word) %>%
   summarize(frequency = n()) %>%
-  kable(align = "l") %>%
-  scroll_box(height = "250px")
+  kable(align = "l")
 ```
 
 Or, we can plot frequency trajectories across the first 4 years using the `ggplot2` package:
@@ -219,7 +208,7 @@ sample.word.frequencies %>%
   ggplot(aes(x = age, y = frequency, color = word)) + 
   geom_point() + 
   geom_smooth(method = "loess", se = FALSE) + 
-  labs(x = "Age (in months)", y = "Word frequency", 
+  labs(x = "Child age (in months)", y = "Word frequency", 
        color = "Target word") + 
   theme_minimal()
 ```
@@ -244,7 +233,7 @@ Now, let's prep our CHILDES data so that it's ready for this analysis. First, we
 
 ::: {.callout-warning}
 ## Warning
-`childesr` built-in functions do not automatically detect variations in spelling or account for related word types, such as plurals and possessives! There are several ways to catch these extra variations in word form, and one example is included below.
+`childesr` built-in functions do not automatically detect all variations in spelling or account for related word types, such as plurals! There are several ways to catch these extra variations in word form, and one example is included below.
 :::
 
 ```{r}

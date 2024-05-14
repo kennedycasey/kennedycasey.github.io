@@ -1,0 +1,336 @@
+---
+title: PSY504 Final Project Tutorial
+date: "2024-05-13"
+format: html
+execute:
+  warning: false
+  message: false
+  freeze: true
+---
+
+# Resource summary
+
+This blog post provides an introduction to the `childesr` package, a convenient tool for accessing transcript data from the Child Language Data Exchange System database ([https://childes.talkbank.org/](https://childes.talkbank.org/)). This post serves to supplement the tutorials provided by the childes-db team ([https://langcog.github.io/childes-db-website/](https://langcog.github.io/childes-db-website/)) and to also illustrate an example logistic regression analysis using CHILDES data.
+
+### Table of contents
+
+* Jump to [CHILDES overview section](#childes-overview)
+
+* Jump to [childesr package section](#childesr-package)
+
+* Jump to [logistic regression section](#logistic-regression)
+
+<hr style="height:10px;color:#0864fc">
+
+## CHILDES overview
+
+![](https://childes.talkbank.org/childes.gif)
+
+
+Interested in child language development? **CHILDES**---the **CHI**ld **L**anguage **D**ata **E**xchange **S**ystem database is a fantastic resource. 
+
+In brief, this database includes thousands of hours of child language data from nearly 50 different languages. The data has mostly been transcribed following [CHAT guidelines](https://talkbank.org/manuals/CHAT.pdf) and can be found on the [TalkBank Browser](https://sla.talkbank.org/TBB/childes). Here, you can browse through all available files.
+
+![](/talkbank.png)
+
+For more information, see [https://childes.talkbank.org/](https://childes.talkbank.org/), including [**Ground Rules**](https://talkbank.org/share/) for data use.
+
+<hr style="height:10px;color:#0864fc">
+
+# `childesr` package
+
+::: {.callout-tip title="Note about tutorial"}
+The following tutorial was created to supplement the existing tutorial published by the `childesr` package contributors found here: [https://langcog.github.io/childes-db-website/api.html](https://langcog.github.io/childes-db-website/api.html)
+:::
+
+First, install the `childesr` package from GitHub.
+
+```{r}
+#| results: hide
+#| warning: false
+#| message: false
+# uncomment the following line if devtools not already installed
+# install.packages("devtools")
+
+# install the latest version of the package from github
+devtools::install_github("langcog/childesr")
+library(childesr)
+
+# install other packages
+library(tidyverse)
+library(kableExtra)
+```
+
+We can use the `get_corpora()` function to explore all of the different corpora available publicly.
+
+Scroll to explore all of the publicly available CHILDES corpora:
+```{r}
+get_corpora() %>%
+  kable(align = "l") %>%
+   scroll_box(height = "250px")
+```
+
+::: {.callout-note}
+## Total corpora count
+There are `r get_corpora() %>% nrow()` different corpora!
+:::
+
+Next, let's restrict to just (North American) English corpora for our current analyses and store this in a dataframe called `eng.corpora`:
+
+```{r}
+eng.corpora <- get_corpora() %>%
+  filter(collection_name == "Eng-NA")
+
+eng.corpora %>%
+  kable(align = "l") %>%
+  scroll_box(height = "250px")
+```
+
+::: {.callout-note}
+## (North American) English corpora count
+Now, we can see that there are `r nrow(eng.corpora)` different corpora that we can use for analyses.
+:::
+
+We can next check how many individual transcripts are included in the (North American) English dataset:
+
+```{r}
+transcript.count <- get_transcripts(collection = "Eng-NA") %>%
+  nrow()
+```
+::: {.callout-note}
+## (North American) English transcript count
+Running these lines of code tells us that there are `r transcript.count` different transcripts available for analyses.
+:::
+
+We can also check how many individual children contribute transcripts to the (North American) English dataset:
+
+```{r}
+child.count <- get_participants(role = "target_child", 
+                                collection = "Eng-NA") %>%
+  nrow()
+```
+
+::: {.callout-note}
+## (North American) English child count
+We have data for `r child.count` children.
+:::
+
+Now, let's look at some example transcribed utterances from two different children in the (North American) English dataset: 
+
+```{r}
+naima.utterances <- get_utterances(collection = "Eng-NA", 
+                                 corpus = "Providence",
+                                 target_child = "Naima")
+
+naima.utterances %>%
+  slice_head(n = 250) %>%
+  kable(align = "l") %>%
+  scroll_box(height = "250px")
+```
+
+::: {.callout-tip icon=false}
+## Child 1 (Naima)
+Naima was recorded longitudinally at home between `r round(min(naima.utterances$target_child_age), 1)` and  `r round(max(naima.utterances$target_child_age), 1)` months of age. She has a total of `r length(unique(naima.utterances$transcript_id))` transcripts, adding up to a total of `r nrow(naima.utterances)` utterances. The table above only displays the first 250 utterances.
+:::
+
+```{r}
+eddie.utterances <- get_utterances(collection = "Eng-NA", 
+                                 corpus = "Gleason",
+                                 target_child = "Eddie")
+
+eddie.utterances %>%
+  slice_head(n = 250) %>%
+  kable(align = "l") %>%
+  scroll_box(height = "250px")
+```
+
+::: {.callout-warning icon=false}
+## Child 2 (Eddie)
+Eddie was only recorded two different times during playroom visits to a lab and once during a home dinner (age range = `r round(min(eddie.utterances$target_child_age, na.rm = TRUE), 1)`--`r round(max(eddie.utterances$target_child_age, na.rm = TRUE), 1)` months). He has a total of `r length(unique(eddie.utterances$transcript_id))` transcripts, adding up to a total of `r nrow(eddie.utterances)` utterances. The table above only displays the first 250 utterances.
+:::
+
+
+We can also use the built-in `get_speaker_statistics()` function to get even more information about individual children in the (North American) English dataset. 
+
+Here, we have means for different features of children's productions across transcripts (number of utterances, mean length of utterances by word, mean number of unique words):
+
+```{r}
+get_speaker_statistics(corpus = c("Providence", "Gleason"),
+                       target_child = c("Naima", "Eddie"),
+                       role = "target_child") %>%
+  group_by(target_child_name, target_child_sex) %>%
+  summarize(Age = mean(target_child_age, na.rm = TRUE), 
+            `Number of utterances` = mean(num_utterances, na.rm = TRUE), 
+            `Length of utterances (in words)` = mean(mlu_w, na.rm = TRUE), 
+            `Number of unique words` = mean(num_types, na.rm = TRUE)) %>%
+  kable(align = "l")
+```
+
+If we are interested in children's overall frequency of use of different words, we can use the `get_tokens()` function to first extract all utterances containing a target word and save them in a dataframe called `sample.word.frequencies`:
+
+```{r}
+sample.word.frequencies <- get_tokens(collection = "Eng-NA", 
+          role = "target_child", 
+          token = c("apple", "ball", "car", "dog", "egg"))
+
+sample.word.frequencies %>%
+  kable(align = "l")
+```
+
+Then, we can manipulate the `sample.word.frequencies` dataframe to explore whatever feature(s) of the data we are interested in.
+
+::: {.callout-warning}
+## Warning
+Make sure to manually check your output dataframe! Sometimes `get_types()` catches extra words that are not one of the words of interest or counts words differently depending on capitalization. Errors can arise if you are not careful about cleaning your data at this stage.
+:::
+
+For instance, we can get a summary table of overall word frequencies summed across all children (after doing some necessary cleaning):
+
+```{r}
+sample.word.frequencies <- sample.word.frequencies %>%
+  mutate(word = tolower(gloss)) %>%
+  filter(word %in% c("apple", "ball", "car", "dog", "egg"))
+  
+sample.word.frequencies %>%
+  group_by(word) %>%
+  summarize(frequency = n()) %>%
+  kable(align = "l") %>%
+  scroll_box(height = "250px")
+```
+
+Or, we can plot frequency trajectories across the first 4 years using the `ggplot2` package:
+
+```{r, fig.cap = "Figure 1: Sample word frequency trajectories across the first 4 years of life. Word frequencies < 10 are excluded from the ."}
+#| fig-width: 10
+#| fig-height: 7
+sample.word.frequencies %>%
+  mutate(age = floor(target_child_age)) %>%
+  filter(age <= 48) %>%
+  group_by(word, age) %>%
+  summarize(frequency = n()) %>%
+  filter(frequency > 10) %>%
+  ggplot(aes(x = age, y = frequency, color = word)) + 
+  geom_point() + 
+  geom_smooth(method = "loess", se = FALSE) + 
+  labs(x = "Age (in months)", y = "Word frequency", 
+       color = "Target word") + 
+  theme_minimal()
+```
+
+
+<hr style="height:10px;color:#0864fc">
+
+# Logistic regression
+
+Now, using these built-in `childesr` functions, we can analyze some data!
+
+Here, we will walk through an example logistic regression analysis by asking about change over time in children's vocabulary use. When (North American) English-speaking caregivers communicate with their young children, they often use "child-directed vocabulary", including words such as doggy, night-night, tummy, even though these words have natural "adult-directed" equivalents---dog, goodnight, and stomach. Children's early vocabularies are likely dominated by these child-directed words, but they must eventually transition to using more adult-like words. Using a logistic regression analysis, we can ask whether children are more vs. less likely to produce child-directed words vs. adult-directed words. 
+
+We will examine 10 different word pairs---a subset of child-directed/adult-directed word pairs from a prior study [(Casey & Casillas, 2022)](https://kennedycasey.github.io/papers/casey2022doggy.pdf)---that include diminutivized vs. non-diminutivized forms of words. Diminutivization is the process of adding the -y (or /i/) sound to the end of words, which is common in English child-directed speech. Word pairs of interest include doggy/dog, birdie/bird, kitty/cat,
+
+Our dependent variable will be word type. We can assign child-directed words a value of 0, and adult-directed words a value of 1, so that we have a dichotomous numeric outcome. This way, we will be modeling the probability of children using an adult-directed variant.
+
+Our main predictor variable will be child age (in months), and we can also include random intercepts for individual word pairs and children.
+
+Now, let's prep our CHILDES data so that it's ready for this analysis. First, we need to extract all child-produced utterances containing one of our target child-directed or adult directed words. We can use the `get_tokens()` function outlined in the previous section. We'll restrict our analysis to include children up to 60 months of age (i.e., 5 years old).
+
+
+::: {.callout-warning}
+## Warning
+`childesr` built-in functions do not automatically detect variations in spelling or account for related word types, such as plurals and possessives! There are several ways to catch these extra variations in word form, and one example is included below.
+:::
+
+```{r}
+# create list of child-directed words
+c.words <- c("doggy", "birdy", "dolly", "horsy", "ducky", 
+             "froggy", "piggy", "blanky", "mommy", "daddy")
+
+
+# account for alternative spellings and plurals/possessives
+c.extra.variations <- c(str_replace(c.words, "y", "ie"), 
+                        str_replace(c.words, "y", "ys"), 
+                        str_replace(c.words, "y", "ies"))
+
+# create list of adult-directed words
+a.words <- c("dog", "bird", "doll", "horse", "duck", 
+             "frog", "pig", "blanket", "mom", "dad")
+
+all.words <- c(c.words, c.extra.variations, a.words)
+all.tokens <- sample.word.frequencies <- get_tokens(collection = "Eng-NA", 
+          role = "target_child", 
+          token = c("apple", "ball", "car", "dog", "egg"))
+  
+raw.data <- get_tokens(collection = "Eng-NA", 
+                   role = "target_child", 
+                   token = all.words) 
+
+data <- raw.data %>%
+  mutate(word = tolower(gloss)) %>%
+  # remove incorrected word catches and reduce age range
+  dplyr::filter(!(word %in% c("fat", "truck", "mother", "pick")) &
+                  target_child_age < 60) %>%
+  mutate(type = ifelse(word %in% a.words, "adult-directed", "child-directed"), 
+         type_num = ifelse(type == "adult-directed", 1, 0), 
+         age = scale(target_child_age), 
+         child = as.character(target_child_id), 
+         pair = substr(word, 1, 3))
+```
+
+Now, we're ready for data analysis! We can use the `lme4` package since we have a nested data structure and specify our multilevel model syntax as follows:
+
+```{r}
+library(lme4)
+library(marginaleffects)
+library(ggeffects)
+library(emmeans)
+library(broom.mixed)
+
+model <- glmer(type_num ~ age + (1|pair) + (1|child), 
+               family = binomial(link = "logit"), 
+               data = data)
+```
+
+Let's check the model output:
+
+```{r}
+model %>%
+  tidy(conf.int = TRUE) %>%
+  kable(align = "l")
+```
+::: {.callout-note icon=false}
+## Age effect
+The effect of age is statistically significant and positive. A one-unit increase in age was associated with an increase in the log odds of producing an adult-directed word (b = 0.54, SE = 0.02, 95% CI [0.50, 0.57], t = 26.59, p < 0.001). In other words, a one-unit increase in linear age is associated with a `r round(exp(0.54), 2)`x change in the log odds of producing an adult-directed word. 
+:::
+
+Next, let's visualize the results on the probability scale using the `predict()` function:
+
+```{r, fig.cap = "Figure 2: Predicted probability of producing an adult-directed word over the first 5 years. Shaded region indicates 95% confidence interval for predicted probability values."}
+mean.age <- mean(data$target_child_age)
+sd.age <- sd(data$target_child_age)
+
+ggpredict(model, terms = c("age [all]"), se = TRUE) %>%
+  ggplot(aes(x = x * sd.age + mean.age, y = predicted)) + 
+  geom_line(color = "blue", size = 2) + 
+  geom_ribbon(aes(ymin = predicted - conf.low, ymax = predicted + conf.high), fill = "blue", alpha = 0.25) + 
+  coord_cartesian(ylim = c(0, 1)) + 
+  scale_x_continuous(limits = c(0, 60), breaks = c(0, 12, 24, 36, 48, 60)) + 
+  labs(x = "Child age (in months)",  y = "Predicted probability of adult-directed word") + 
+  theme_minimal() 
+```
+
+::: {.callout-note icon=false}
+## Sample write-up
+We asked whether the probability of producing adult-directed words (relative to child-directed equivalents) changes with child age. Our data came from the Child Language Data Exchange System database, or CHILDES [(MacWhinney, 2000)](https://psycnet.apa.org/record/2000-03630-000), and were extracted using the `childesr` package [(Sanchez et al., 2019)](https://link.springer.com/article/10.3758/s13428-018-1176-7). We used a logistic mixed-effects regression analysis modeling (with a logit link and maximum likelihood estimation) the probability of producing an adult-directed word (1) vs. child-directed word (0) on the basis of child age (in months, scaled) with random intercepts for individual word pairs and children. The effect of child age was statistically significant and positive (b = 0.54, SE = 0.02, 95% CI [0.50, 0.57], t = 26.59, p < 0.001). In other words, a one-unit increase in linear age is associated with a `r round(exp(0.54), 2)`x change in the log odds of producing an adult-directed word. 
+
+As expected, children increasingly use adult-directed words as they age.
+:::
+
+<hr style="height:10px;color:#0864fc">
+
+## References
+
+Casey, K., & Casillas, M. (2022). From doggy to dog: Developmental shifts in children’s use of register-specific words. In J. Culbertson, A. Perfors, H. Rabagliati, & V. Ramenzoni (Eds.), Proceedings of the 44th Annual Conference of the Cognitive Science Society (pp. 49-56). [**[link](https://kennedycasey.github.io/papers/casey2022doggy.pdf)**]
+
+MacWhinney, B. (2000). _The CHILDES project: Tools for analyzing talk: Transcription format and programs_ (3rd ed.). Lawrence Erlbaum Associates Publishers. [**[link](https://psycnet.apa.org/record/2000-03630-000)**]
+
+Sanchez, A., Meylan, S.C., Braginsky, M., MacDonald, K. E., Yurovsky, D., & Frank, M. C. (2019). childes-db: a flexible and reproducible interface to the Child Language Data Exchange System. _Behavior Research Methods 51_(4), 1928–1941. [**[link](https://link.springer.com/article/10.3758/s13428-018-1176-7)**]

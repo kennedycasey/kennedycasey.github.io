@@ -18147,54 +18147,7 @@ Child 2 (Eddie)
 <div class="cell">
 <div class="sourceCode cell-code" id="cb9"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb9-1"><a href="#cb9-1" aria-hidden="true" tabindex="-1"></a>sample.word.frequencies <span class="ot">&lt;-</span> <span class="fu">get_tokens</span>(<span class="at">collection =</span> <span class="st">"Eng-NA"</span>, </span>
 <span id="cb9-2"><a href="#cb9-2" aria-hidden="true" tabindex="-1"></a>          <span class="at">role =</span> <span class="st">"target_child"</span>, </span>
-<span id="cb9-3"><a href="#cb9-3" aria-hidden="true" tabindex="-1"></a>          <span class="at">token =</span> <span class="fu">c</span>(<span class="st">"apple"</span>, <span class="st">"ball"</span>, <span class="st">"car"</span>, <span class="st">"dog"</span>, <span class="st">"egg"</span>))</span>
-<span id="cb9-4"><a href="#cb9-4" aria-hidden="true" tabindex="-1"></a></span>
-<span id="cb9-5"><a href="#cb9-5" aria-hidden="true" tabindex="-1"></a>sample.word.frequencies <span class="ot">&lt;-</span> sample.word.frequencies <span class="sc">%&gt;%</span></span>
-<span id="cb9-6"><a href="#cb9-6" aria-hidden="true" tabindex="-1"></a>  <span class="fu">mutate</span>(<span class="at">word =</span> <span class="fu">tolower</span>(gloss)) <span class="sc">%&gt;%</span></span>
-<span id="cb9-7"><a href="#cb9-7" aria-hidden="true" tabindex="-1"></a>  <span class="fu">filter</span>(word <span class="sc">%in%</span> <span class="fu">c</span>(<span class="st">"apple"</span>, <span class="st">"ball"</span>, <span class="st">"car"</span>, <span class="st">"dog"</span>, <span class="st">"egg"</span>))</span>
-<span id="cb9-8"><a href="#cb9-8" aria-hidden="true" tabindex="-1"></a></span>
-<span id="cb9-9"><a href="#cb9-9" aria-hidden="true" tabindex="-1"></a>sample.word.frequencies <span class="sc">%&gt;%</span></span>
-<span id="cb9-10"><a href="#cb9-10" aria-hidden="true" tabindex="-1"></a><span class="fu">group_by</span>(word) <span class="sc">%&gt;%</span></span>
-<span id="cb9-11"><a href="#cb9-11" aria-hidden="true" tabindex="-1"></a><span class="fu">summarize</span>(<span class="at">frequency =</span> <span class="fu">n</span>()) <span class="sc">%&gt;%</span></span>
-<span id="cb9-12"><a href="#cb9-12" aria-hidden="true" tabindex="-1"></a><span class="fu">kable</span>(<span class="at">align =</span> <span class="st">"l"</span>) <span class="sc">%&gt;%</span></span>
-<span id="cb9-13"><a href="#cb9-13" aria-hidden="true" tabindex="-1"></a><span class="fu">scroll_box</span>(<span class="at">height =</span> <span class="st">"250px"</span>)</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
-<div class="cell-output-display">
-<div>
-<div style="border: 1px solid #ddd; padding: 0px; overflow-y: scroll; height:250px; ">
-<table data-quarto-postprocess="true" class="table table-sm table-striped small">
-<thead>
-<tr class="header">
-<th data-quarto-table-cell-role="th" style="text-align: left; position: sticky; top: 0; background-color: #FFFFFF;">word</th>
-<th data-quarto-table-cell-role="th" style="text-align: left; position: sticky; top: 0; background-color: #FFFFFF;">frequency</th>
-</tr>
-</thead>
-<tbody>
-<tr class="odd">
-<td style="text-align: left;">apple</td>
-<td style="text-align: left;">2202</td>
-</tr>
-<tr class="even">
-<td style="text-align: left;">ball</td>
-<td style="text-align: left;">4026</td>
-</tr>
-<tr class="odd">
-<td style="text-align: left;">car</td>
-<td style="text-align: left;">5754</td>
-</tr>
-<tr class="even">
-<td style="text-align: left;">dog</td>
-<td style="text-align: left;">3362</td>
-</tr>
-<tr class="odd">
-<td style="text-align: left;">egg</td>
-<td style="text-align: left;">1123</td>
-</tr>
-</tbody>
-</table>
-</div>
-
-</div>
-</div>
+<span id="cb9-3"><a href="#cb9-3" aria-hidden="true" tabindex="-1"></a>          <span class="at">token =</span> <span class="fu">c</span>(<span class="st">"apple"</span>, <span class="st">"ball"</span>, <span class="st">"car"</span>, <span class="st">"dog"</span>, <span class="st">"egg"</span>))</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
 </div>
 <p>Then, we can manipulate the <code>sample.word.frequencies</code> dataframe to explore whatever feature(s) of the data we are interested in.</p>
 <div class="callout callout-style-default callout-warning callout-titled">
@@ -18207,7 +18160,7 @@ Warning
 </div>
 </div>
 <div class="callout-body-container callout-body">
-<p>Make sure to manually check your output dataframe! Sometimes <code>get_types()</code> catches extra words that are not one of the words of interest or counts words differently depending on capitalization. Errors can arise if you are not careful about cleaning your data at this stage.</p>
+<p>Make sure to manually check your output dataframe! Sometimes <code>get_tokens()</code> catches extra words that are not one of the words of interest or counts words differently depending on capitalization. Errors can arise if you are not careful about cleaning your data at this stage.</p>
 </div>
 </div>
 <p>For instance, we can get a summary table of overall word frequencies summed across all children (after doing some necessary cleaning):</p>
@@ -18219,16 +18172,13 @@ Warning
 <span id="cb10-5"><a href="#cb10-5" aria-hidden="true" tabindex="-1"></a>sample.word.frequencies <span class="sc">%&gt;%</span></span>
 <span id="cb10-6"><a href="#cb10-6" aria-hidden="true" tabindex="-1"></a>  <span class="fu">group_by</span>(word) <span class="sc">%&gt;%</span></span>
 <span id="cb10-7"><a href="#cb10-7" aria-hidden="true" tabindex="-1"></a>  <span class="fu">summarize</span>(<span class="at">frequency =</span> <span class="fu">n</span>()) <span class="sc">%&gt;%</span></span>
-<span id="cb10-8"><a href="#cb10-8" aria-hidden="true" tabindex="-1"></a>  <span class="fu">kable</span>(<span class="at">align =</span> <span class="st">"l"</span>) <span class="sc">%&gt;%</span></span>
-<span id="cb10-9"><a href="#cb10-9" aria-hidden="true" tabindex="-1"></a>  <span class="fu">scroll_box</span>(<span class="at">height =</span> <span class="st">"250px"</span>)</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+<span id="cb10-8"><a href="#cb10-8" aria-hidden="true" tabindex="-1"></a>  <span class="fu">kable</span>(<span class="at">align =</span> <span class="st">"l"</span>)</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
 <div class="cell-output-display">
-<div>
-<div style="border: 1px solid #ddd; padding: 0px; overflow-y: scroll; height:250px; ">
-<table data-quarto-postprocess="true" class="table table-sm table-striped small">
+<table class="table table-sm table-striped small">
 <thead>
 <tr class="header">
-<th data-quarto-table-cell-role="th" style="text-align: left; position: sticky; top: 0; background-color: #FFFFFF;">word</th>
-<th data-quarto-table-cell-role="th" style="text-align: left; position: sticky; top: 0; background-color: #FFFFFF;">frequency</th>
+<th style="text-align: left;">word</th>
+<th style="text-align: left;">frequency</th>
 </tr>
 </thead>
 <tbody>
@@ -18254,9 +18204,6 @@ Warning
 </tr>
 </tbody>
 </table>
-</div>
-
-</div>
 </div>
 </div>
 <p>Or, we can plot frequency trajectories across the first 4 years using the <code>ggplot2</code> package:</p>
@@ -18270,7 +18217,7 @@ Warning
 <span id="cb11-7"><a href="#cb11-7" aria-hidden="true" tabindex="-1"></a>  <span class="fu">ggplot</span>(<span class="fu">aes</span>(<span class="at">x =</span> age, <span class="at">y =</span> frequency, <span class="at">color =</span> word)) <span class="sc">+</span> </span>
 <span id="cb11-8"><a href="#cb11-8" aria-hidden="true" tabindex="-1"></a>  <span class="fu">geom_point</span>() <span class="sc">+</span> </span>
 <span id="cb11-9"><a href="#cb11-9" aria-hidden="true" tabindex="-1"></a>  <span class="fu">geom_smooth</span>(<span class="at">method =</span> <span class="st">"loess"</span>, <span class="at">se =</span> <span class="cn">FALSE</span>) <span class="sc">+</span> </span>
-<span id="cb11-10"><a href="#cb11-10" aria-hidden="true" tabindex="-1"></a>  <span class="fu">labs</span>(<span class="at">x =</span> <span class="st">"Age (in months)"</span>, <span class="at">y =</span> <span class="st">"Word frequency"</span>, </span>
+<span id="cb11-10"><a href="#cb11-10" aria-hidden="true" tabindex="-1"></a>  <span class="fu">labs</span>(<span class="at">x =</span> <span class="st">"Child age (in months)"</span>, <span class="at">y =</span> <span class="st">"Word frequency"</span>, </span>
 <span id="cb11-11"><a href="#cb11-11" aria-hidden="true" tabindex="-1"></a>       <span class="at">color =</span> <span class="st">"Target word"</span>) <span class="sc">+</span> </span>
 <span id="cb11-12"><a href="#cb11-12" aria-hidden="true" tabindex="-1"></a>  <span class="fu">theme_minimal</span>()</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
 <div class="cell-output-display">
@@ -18302,7 +18249,7 @@ Warning
 </div>
 </div>
 <div class="callout-body-container callout-body">
-<p><code>childesr</code> built-in functions do not automatically detect variations in spelling or account for related word types, such as plurals and possessives! There are several ways to catch these extra variations in word form, and one example is included below.</p>
+<p><code>childesr</code> built-in functions do not automatically detect all variations in spelling or account for related word types, such as plurals! There are several ways to catch these extra variations in word form, and one example is included below.</p>
 </div>
 </div>
 <div class="cell">

@@ -173,8 +173,15 @@ sample.word.frequencies <- get_tokens(collection = "Eng-NA",
           role = "target_child", 
           token = c("apple", "ball", "car", "dog", "egg"))
 
+sample.word.frequencies <- sample.word.frequencies %>%
+  mutate(word = tolower(gloss)) %>%
+  filter(word %in% c("apple", "ball", "car", "dog", "egg"))
+
 sample.word.frequencies %>%
-  kable(align = "l")
+group_by(word) %>%
+summarize(frequency = n()) %>%
+kable(align = "l") %>%
+scroll_box(height = "250px")
 ```
 
 Then, we can manipulate the `sample.word.frequencies` dataframe to explore whatever feature(s) of the data we are interested in.

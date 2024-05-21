@@ -6,7 +6,6 @@ enableEmoji = true
 math = false          # enable KaTeX (https://katex.org/) globally
 ai = true
 googleAnalytics = ""  # add your tracking id
-uglyURLs = false
 
 [params]
   author = "Kennedy Casey"
@@ -36,8 +35,6 @@ uglyURLs = false
 
 [permalinks]
   "/" = "/:filename"
-  page = "/:slug/"
-
 
 [menu]
   [[menu.main]]

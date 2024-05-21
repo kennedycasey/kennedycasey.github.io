@@ -1,5 +1,5 @@
 ---
-title: PSY504 Final Project Tutorial
+title: "CHILDES"
 date: "2024-05-13"
 format: html
 execute:
@@ -7,6 +7,8 @@ execute:
   message: false
   freeze: true
 ---
+
+# PSY504 Final Project Tutorial
 
 # Resource summary
 
@@ -252,9 +254,6 @@ a.words <- c("dog", "bird", "doll", "horse", "duck",
              "frog", "pig", "blanket", "mom", "dad")
 
 all.words <- c(c.words, c.extra.variations, a.words)
-all.tokens <- sample.word.frequencies <- get_tokens(collection = "Eng-NA", 
-          role = "target_child", 
-          token = c("apple", "ball", "car", "dog", "egg"))
   
 raw.data <- get_tokens(collection = "Eng-NA", 
                    role = "target_child", 

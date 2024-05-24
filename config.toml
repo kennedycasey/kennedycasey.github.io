@@ -9,11 +9,11 @@ googleAnalytics = ""  # add your tracking id
 
 [params]
   author = "Kennedy Casey"
-  description = "Lab Manager. Chatter Lab. Department of Comparative Human Development. University of Chicago"
-  favicon = ""  # path to a .ico to use as favicon
+  description = "PhD Student. Psychology. Princeton University."
+  favicon = "favicon.ico"  # path to a .ico to use as favicon
   logo = ""  # url or path to a logo to put in the header
   [params.footer]
-    text = "© Copyright 2023 Kennedy Casey"
+    text = "© Copyright 2024 Kennedy Casey"
   [params.style]
     fontFamily = "sans-serif"
     pageWidth = "750px"
@@ -28,18 +28,14 @@ googleAnalytics = ""  # add your tracking id
     icon = "fab fa-github"
     title = "GitHub"
     url = "https://github.com/kennedycasey"
-  [[params.socialIcons]]
-    icon = "fab fa-twitter"
-    title = "Twitter"
-    url = "https://twitter.com/kennedybcasey"
 
 [permalinks]
   "/" = "/:filename"
 
 [menu]
   [[menu.main]]
-    name = "About"
-    url = "/about"
+    name = "Home"
+    url = "/home"
     weight = 1
 [[menu.main]]
     name = "Papers"

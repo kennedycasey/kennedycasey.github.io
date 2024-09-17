@@ -27,6 +27,6 @@ I am a second-year PhD student in Psychology at Princeton University. I work wit
 
 <br>
 
-<b><span style="color:#9ea6a2">Verb bias but no noun bias in early Tseltal lexical developmen</b></span> presented by [Marisa Casillas](https://humdev.uchicago.edu/directory/marisa-casillas) at [IASCL](https://iascl2024.com/)</font>
+<b><span style="color:#9ea6a2">Verb bias but no noun bias in early Tseltal lexical development</b></span> presented by [Marisa Casillas](https://humdev.uchicago.edu/directory/marisa-casillas) at [IASCL](https://iascl2024.com/)</font>
 
 <font size="-1">**Collaborators:** [Ruthe Foushee](https://www.newschool.edu/nssr/faculty/ruthe-foushee/) & [Penny Brown](https://www.mpi.nl/people/brown-penelope)</font>

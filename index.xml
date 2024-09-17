@@ -1,9 +1,119 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Home on Kennedy Casey</title><link>https://kennedycasey.github.io/</link><description>Recent content in Home on Kennedy Casey</description><generator>Hugo</generator><language>en</language><atom:link href="https://kennedycasey.github.io/index.xml" rel="self" type="application/rss+xml"/><item><title/><link>https://kennedycasey.github.io/resources/childes/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://kennedycasey.github.io/resources/childes/</guid><description>&lt;!DOCTYPE html> PSY504 Final Project Tutorial PSY504 Final Project Tutorial Published May 13, 2024
-Resource summary This blog post provides an introduction to the childesr package, a convenient tool for accessing transcript data from the Child Language Data Exchange System database (https://childes.talkbank.org/). This post serves to supplement the tutorials provided by the childes-db team (https://langcog.github.io/childes-db-website/) and to also illustrate an example logistic regression analysis using CHILDES data.
-Table of contents Jump to CHILDES overview section</description></item><item><title>Home</title><link>https://kennedycasey.github.io/home/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://kennedycasey.github.io/home/</guid><description>PhD student, Princeton Baby Lab Department of Psychology, Princeton University
-I am a second-year PhD student in Psychology at Princeton University. I work with Dr. Casey Lew-Williams in the Princeton Baby Lab. Previously, I worked with Dr. Marisa Casillas at the University of Chicago as the manager for the Chatter Lab. Broadly speaking, my research focuses on how young children&amp;rsquo;s rich and highly variable everyday language input shapes their early word representations.</description></item><item><title>Papers</title><link>https://kennedycasey.github.io/papers/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://kennedycasey.github.io/papers/</guid><description>Papers Preprints Casillas, M., &amp;amp; Casey, K. (in press). Daylong egocentric recordings in small- and large-scale language communities: A practical introduction. Advances in Child Development and Behavior (Vol. 66).
-preprint
-Journal Articles Casey, K., Potter, C. E., Lew-Williams, C., &amp;amp; Wojcik, E. H. (2023). Moving beyond “nouns in the lab”: Using naturalistic data to understand why infants’ first words include uh-oh and hi. Developmental Psychology, 59(11), 2162-2173.
-preprint doi data</description></item><item><title>Presentations</title><link>https://kennedycasey.github.io/presentations/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://kennedycasey.github.io/presentations/</guid><description>Presentations Conference talks [1] Casey, K., &amp;amp; Lew-Williams, C. (2024). Contending with word form variation in early word learning. Talk to be presented at the Boston University Conference on Language Development. Boston, MA, USA.
-[2] Casillas, M., Foushee, R., &amp;amp; Casey, K. (2024). Tseltal children show a verb bias in early vocabulary development. Talk to be presented at the Boston University Conference on Language Development. Boston, MA, USA.
-[3] Casillas, M.</description></item></channel></rss>
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Home on Kennedy Casey</title><link>https://kennedycasey.github.io/</link><description>Recent content in Home on Kennedy Casey</description><generator>Hugo</generator><language>en</language><atom:link href="https://kennedycasey.github.io/index.xml" rel="self" type="application/rss+xml"/><item><title/><link>https://kennedycasey.github.io/resources/childes/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://kennedycasey.github.io/resources/childes/</guid><description>&lt;!DOCTYPE html>
+&lt;html xmlns="http://www.w3.org/1999/xhtml" lang="en" xml:lang="en">&lt;head>
+
+&lt;meta charset="utf-8">
+&lt;meta name="generator" content="quarto-1.5.33">
+
+&lt;meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
+
+&lt;meta name="dcterms.date" content="2024-05-13">
+
+&lt;title>PSY504 Final Project Tutorial&lt;/title>
+&lt;style>
+code{white-space: pre-wrap;}
+span.smallcaps{font-variant: small-caps;}
+div.columns{display: flex; gap: min(4vw, 1.5em);}
+div.column{flex: auto; overflow-x: auto;}
+div.hanging-indent{margin-left: 1.5em; text-indent: -1.5em;}
+ul.task-list{list-style: none;}
+ul.task-list li input[type="checkbox"] {
+ width: 0.8em;
+ margin: 0 0.8em 0.2em -1em; /* quarto-specific, see https://github.com/quarto-dev/quarto-cli/issues/4556 */ 
+ vertical-align: middle;
+}
+/* CSS for syntax highlighting */
+pre > code.sourceCode { white-space: pre; position: relative; }
+pre > code.sourceCode > span { line-height: 1.25; }
+pre > code.sourceCode > span:empty { height: 1.2em; }
+.sourceCode { overflow: visible; }
+code.sourceCode > span { color: inherit; text-decoration: inherit; }
+div.sourceCode { margin: 1em 0; }
+pre.sourceCode { margin: 0; }
+@media screen {
+div.sourceCode { overflow: auto; }
+}
+@media print {
+pre > code.sourceCode { white-space: pre-wrap; }
+pre > code.sourceCode > span { display: inline-block; text-indent: -5em; padding-left: 5em; }
+}
+pre.numberSource code
+ { counter-reset: source-line 0; }
+pre.numberSource code > span
+ { position: relative; left: -4em; counter-increment: source-line; }
+pre.numberSource code > span > a:first-child::before
+ { content: counter(source-line);
+ position: relative; left: -1em; text-align: right; vertical-align: baseline;
+ border: none; display: inline-block;
+ -webkit-touch-callout: none; -webkit-user-select: none;
+ -khtml-user-select: none; -moz-user-select: none;
+ -ms-user-select: none; user-select: none;
+ padding: 0 4px; width: 4em;
+ }
+pre.numberSource { margin-left: 3em; padding-left: 4px; }
+div.sourceCode
+ { }
+@media screen {
+pre > code.sourceCode > span > a:first-child::before { text-decoration: underline; }
+}
+&lt;/style>
+
+
+&lt;script src="index_files/libs/clipboard/clipboard.min.js">&lt;/script>
+&lt;script src="index_files/libs/quarto-html/quarto.js">&lt;/script>
+&lt;script src="index_files/libs/quarto-html/popper.min.js">&lt;/script>
+&lt;script src="index_files/libs/quarto-html/tippy.umd.min.js">&lt;/script>
+&lt;script src="index_files/libs/quarto-html/anchor.min.js">&lt;/script>
+&lt;link href="index_files/libs/quarto-html/tippy.css" rel="stylesheet">
+&lt;link href="index_files/libs/quarto-html/quarto-syntax-highlighting.css" rel="stylesheet" id="quarto-text-highlighting-styles">
+&lt;script src="index_files/libs/bootstrap/bootstrap.min.js">&lt;/script>
+&lt;link href="index_files/libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
+&lt;link href="index_files/libs/bootstrap/bootstrap.min.css" rel="stylesheet" id="quarto-bootstrap" data-mode="light">
+&lt;script src="index_files/libs/kePrint-0.0.1/kePrint.js">&lt;/script>
+&lt;link href="index_files/libs/lightable-0.0.1/lightable.css" rel="stylesheet">
+
+
+&lt;/head>
+
+&lt;body class="fullcontent">
+
+&lt;div id="quarto-content" class="page-columns page-rows-contents page-layout-article">
+
+&lt;main class="content" id="quarto-document-content">
+
+&lt;header id="title-block-header" class="quarto-title-block default">
+&lt;div class="quarto-title">
+&lt;h1 class="title">PSY504 Final Project Tutorial&lt;/h1>
+&lt;/div>
+
+
+
+&lt;div class="quarto-title-meta">
+
+ 
+ &lt;div>
+ &lt;div class="quarto-title-meta-heading">Published&lt;/div>
+ &lt;div class="quarto-title-meta-contents">
+ &lt;p class="date">May 13, 2024&lt;/p></description></item><item><title>Home</title><link>https://kennedycasey.github.io/home/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://kennedycasey.github.io/home/</guid><description>&lt;figure class="avatar">&lt;img src="https://kennedycasey.github.io/avatar.jpg">
+&lt;/figure>
+
+&lt;p>&lt;b>PhD student, Princeton Baby Lab&lt;/b>
+&lt;br>
+&lt;font size="-1">&lt;span style="color:#9ea6a2">Department of Psychology, Princeton University&lt;/span>&lt;/font>&lt;/p>
+&lt;p>I am a second-year PhD student in Psychology at Princeton University. I work with &lt;a href="https://psych.princeton.edu/person/casey-lew-williams">Dr. Casey Lew-Williams&lt;/a> in the &lt;a href="https://babylab.princeton.edu/">Princeton Baby Lab&lt;/a>. Previously, I worked with &lt;a href="https://humdev.uchicago.edu/directory/marisa-casillas">Dr. Marisa Casillas&lt;/a> at the University of Chicago as the manager for the &lt;a href="https://chatterlab.uchicago.edu/">Chatter Lab&lt;/a>. Broadly speaking, my research focuses on how young children&amp;rsquo;s rich and highly variable everyday language input shapes their early word representations.&lt;/p>
+&lt;br>
+&lt;br>
+&lt;h3 id="recentupcoming-presentations">Recent/Upcoming Presentations&lt;/h3>
+&lt;p>&lt;b>&lt;span style="color:#9ea6a2">Object handling predicts age of noun acquisition in a Tseltal Mayan community&lt;/span>&lt;/b> presented at the International Congress for the Study of Child Language (&lt;a href="https://iascl2024.com/">IASCL&lt;/a>)&lt;/font>&lt;/p></description></item><item><title>Papers</title><link>https://kennedycasey.github.io/papers/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://kennedycasey.github.io/papers/</guid><description>&lt;h2 id="papers">Papers&lt;/h2>
+&lt;h4 id="preprints">Preprints&lt;/h4>
+&lt;p>Casillas, M., &amp;amp; &lt;strong>Casey, K.&lt;/strong> (in press). &lt;span style="color:#9ea6a2">Daylong egocentric recordings in small- and large-scale language communities: A practical introduction&lt;/span>. &lt;em>Advances in Child Development and Behavior&lt;/em> (Vol. 66).&lt;/p>
+&lt;p>&lt;a href="https://osf.io/preprints/psyarxiv/b3jxs" class="button" target="_blank">preprint&lt;/a>&lt;/p>
+&lt;h4 id="journal-articles">Journal Articles&lt;/h4>
+&lt;p>&lt;strong>Casey, K.&lt;/strong>, Potter, C. E., Lew-Williams, C., &amp;amp; Wojcik, E. H. (2023). &lt;span style="color:#9ea6a2">Moving beyond “nouns in the lab”: Using naturalistic data to understand why infants’ first words include uh-oh and hi&lt;/span>. &lt;em>Developmental Psychology, 59&lt;/em>(11), 2162-2173.&lt;/p>
+&lt;p>&lt;a href="https://psyarxiv.com/xbyr3/" class="button" target="_blank">preprint&lt;/a>
+&lt;a href="https://doi.org/10.1037/dev0001630" class="button" target="_blank">doi&lt;/a>
+&lt;a href="https://osf.io/tdbqn/" class="button" target="_blank"> data&lt;/a>&lt;/p>
+&lt;p>Baek, S., Marques, S., &lt;strong>Casey, K.&lt;/strong>, Testerman, M., McGill, F., &amp;amp; Emberson, L. (2023). &lt;span style="color:#9ea6a2">Attrition rate in infant fNIRS research: A meta-analysis&lt;/span>. &lt;em>Infancy, 28&lt;/em>(3), 507-531.&lt;/p></description></item><item><title>Presentations</title><link>https://kennedycasey.github.io/presentations/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://kennedycasey.github.io/presentations/</guid><description>&lt;h2 id="presentations">Presentations&lt;/h2>
+&lt;h3 id="conference-talks">Conference talks&lt;/h3>
+&lt;p>[1] &lt;strong>Casey, K.&lt;/strong>, &amp;amp; Lew-Williams, C. (2024). &lt;span style="color:#9ea6a2">Contending with word form variation in early word learning.&lt;/span> Talk to be presented at the Boston University Conference on Language Development. Boston, MA, USA.&lt;/p>
+&lt;p>[2] Casillas, M., Foushee, R., &amp;amp; &lt;strong>Casey, K.&lt;/strong> (2024). &lt;span style="color:#9ea6a2">Tseltal children show a verb bias in early vocabulary development.&lt;/span> Talk to be presented at the Boston University Conference on Language Development. Boston, MA, USA.&lt;/p>
+&lt;p>[3] Casillas, M., &amp;amp; &lt;strong>Casey, K.&lt;/strong> (2024). &lt;span style="color:#9ea6a2">Multimodal and linguistic factors shaping lexical development in Tenejapan Tseltal.&lt;/span> Talk to be presented at Societas Linguistica Europaea. Helsinki, Finland.&lt;/p></description></item></channel></rss>

@@ -1,3 +1,96 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Resources on Kennedy Casey</title><link>https://kennedycasey.github.io/resources/</link><description>Recent content in Resources on Kennedy Casey</description><generator>Hugo</generator><language>en</language><atom:link href="https://kennedycasey.github.io/resources/index.xml" rel="self" type="application/rss+xml"/><item><title/><link>https://kennedycasey.github.io/resources/childes/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://kennedycasey.github.io/resources/childes/</guid><description>&lt;!DOCTYPE html> PSY504 Final Project Tutorial PSY504 Final Project Tutorial Published May 13, 2024
-Resource summary This blog post provides an introduction to the childesr package, a convenient tool for accessing transcript data from the Child Language Data Exchange System database (https://childes.talkbank.org/). This post serves to supplement the tutorials provided by the childes-db team (https://langcog.github.io/childes-db-website/) and to also illustrate an example logistic regression analysis using CHILDES data.
-Table of contents Jump to CHILDES overview section</description></item></channel></rss>
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Resources on Kennedy Casey</title><link>https://kennedycasey.github.io/resources/</link><description>Recent content in Resources on Kennedy Casey</description><generator>Hugo</generator><language>en</language><atom:link href="https://kennedycasey.github.io/resources/index.xml" rel="self" type="application/rss+xml"/><item><title/><link>https://kennedycasey.github.io/resources/childes/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://kennedycasey.github.io/resources/childes/</guid><description>&lt;!DOCTYPE html>
+&lt;html xmlns="http://www.w3.org/1999/xhtml" lang="en" xml:lang="en">&lt;head>
+
+&lt;meta charset="utf-8">
+&lt;meta name="generator" content="quarto-1.5.33">
+
+&lt;meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
+
+&lt;meta name="dcterms.date" content="2024-05-13">
+
+&lt;title>PSY504 Final Project Tutorial&lt;/title>
+&lt;style>
+code{white-space: pre-wrap;}
+span.smallcaps{font-variant: small-caps;}
+div.columns{display: flex; gap: min(4vw, 1.5em);}
+div.column{flex: auto; overflow-x: auto;}
+div.hanging-indent{margin-left: 1.5em; text-indent: -1.5em;}
+ul.task-list{list-style: none;}
+ul.task-list li input[type="checkbox"] {
+ width: 0.8em;
+ margin: 0 0.8em 0.2em -1em; /* quarto-specific, see https://github.com/quarto-dev/quarto-cli/issues/4556 */ 
+ vertical-align: middle;
+}
+/* CSS for syntax highlighting */
+pre > code.sourceCode { white-space: pre; position: relative; }
+pre > code.sourceCode > span { line-height: 1.25; }
+pre > code.sourceCode > span:empty { height: 1.2em; }
+.sourceCode { overflow: visible; }
+code.sourceCode > span { color: inherit; text-decoration: inherit; }
+div.sourceCode { margin: 1em 0; }
+pre.sourceCode { margin: 0; }
+@media screen {
+div.sourceCode { overflow: auto; }
+}
+@media print {
+pre > code.sourceCode { white-space: pre-wrap; }
+pre > code.sourceCode > span { display: inline-block; text-indent: -5em; padding-left: 5em; }
+}
+pre.numberSource code
+ { counter-reset: source-line 0; }
+pre.numberSource code > span
+ { position: relative; left: -4em; counter-increment: source-line; }
+pre.numberSource code > span > a:first-child::before
+ { content: counter(source-line);
+ position: relative; left: -1em; text-align: right; vertical-align: baseline;
+ border: none; display: inline-block;
+ -webkit-touch-callout: none; -webkit-user-select: none;
+ -khtml-user-select: none; -moz-user-select: none;
+ -ms-user-select: none; user-select: none;
+ padding: 0 4px; width: 4em;
+ }
+pre.numberSource { margin-left: 3em; padding-left: 4px; }
+div.sourceCode
+ { }
+@media screen {
+pre > code.sourceCode > span > a:first-child::before { text-decoration: underline; }
+}
+&lt;/style>
+
+
+&lt;script src="index_files/libs/clipboard/clipboard.min.js">&lt;/script>
+&lt;script src="index_files/libs/quarto-html/quarto.js">&lt;/script>
+&lt;script src="index_files/libs/quarto-html/popper.min.js">&lt;/script>
+&lt;script src="index_files/libs/quarto-html/tippy.umd.min.js">&lt;/script>
+&lt;script src="index_files/libs/quarto-html/anchor.min.js">&lt;/script>
+&lt;link href="index_files/libs/quarto-html/tippy.css" rel="stylesheet">
+&lt;link href="index_files/libs/quarto-html/quarto-syntax-highlighting.css" rel="stylesheet" id="quarto-text-highlighting-styles">
+&lt;script src="index_files/libs/bootstrap/bootstrap.min.js">&lt;/script>
+&lt;link href="index_files/libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
+&lt;link href="index_files/libs/bootstrap/bootstrap.min.css" rel="stylesheet" id="quarto-bootstrap" data-mode="light">
+&lt;script src="index_files/libs/kePrint-0.0.1/kePrint.js">&lt;/script>
+&lt;link href="index_files/libs/lightable-0.0.1/lightable.css" rel="stylesheet">
+
+
+&lt;/head>
+
+&lt;body class="fullcontent">
+
+&lt;div id="quarto-content" class="page-columns page-rows-contents page-layout-article">
+
+&lt;main class="content" id="quarto-document-content">
+
+&lt;header id="title-block-header" class="quarto-title-block default">
+&lt;div class="quarto-title">
+&lt;h1 class="title">PSY504 Final Project Tutorial&lt;/h1>
+&lt;/div>
+
+
+
+&lt;div class="quarto-title-meta">
+
+ 
+ &lt;div>
+ &lt;div class="quarto-title-meta-heading">Published&lt;/div>
+ &lt;div class="quarto-title-meta-contents">
+ &lt;p class="date">May 13, 2024&lt;/p></description></item></channel></rss>

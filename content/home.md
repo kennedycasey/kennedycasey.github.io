@@ -15,18 +15,12 @@ I am a second-year PhD student in Psychology at Princeton University. I work wit
 
 ### Recent/Upcoming Presentations
 
-<b><span style="color:#9ea6a2">Object handling predicts age of noun acquisition in a Tseltal Mayan community</span></b> presented at the International Congress for the Study of Child Language  ([IASCL](https://iascl2024.com/))</font>
+<b><span style="color:#9ea6a2">Quantifying the amount and impact of label variation in early word learning</span></b> presented at the Biennial Meeting of the Society of Research for Child Development  ([SRCD](https://www.srcd.org/event/srcd-2025-biennial-meeting/))</font>
 
-<font size="-1">**Collaborators:** [Marisa Casillas](https://humdev.uchicago.edu/directory/marisa-casillas)</font>
-
-<br>
-
-<b><span style="color:#9ea6a2">What do US children overhear? Evidence from daylong recordings and parental reports</b></span> presented by [Yuchen Jin](https://regenchen.github.io/) at [IASCL](https://iascl2024.com/)</font>
-
-<font size="-1">**Collaborators:** [Ruthe Foushee](https://www.newschool.edu/nssr/faculty/ruthe-foushee/) & [Marisa Casillas](https://humdev.uchicago.edu/directory/marisa-casillas)</font>
+<font size="-1">**Collaborators:** Amalia Levitin, [Jessica Kosie](https://search.asu.edu/profile/4894197), & [Casey Lew-Williams](https://psychology.princeton.edu/people/casey-lew-williams)</font>
 
 <br>
 
-<b><span style="color:#9ea6a2">Verb bias but no noun bias in early Tseltal lexical development</b></span> presented by [Marisa Casillas](https://humdev.uchicago.edu/directory/marisa-casillas) at [IASCL](https://iascl2024.com/)</font>
+<b><span style="color:#9ea6a2">Rates of gender representation in children’s literature across cultures: Comparison of U.S. vs. Chinese children’s books</b></span> presented by [Qi Sun](https://scholar.google.com/citations?user=BFAxC4sAAAAJ&hl=en) & [Ching-I Huang](https://scholar.google.com/citations?user=PQfRXVYAAAAJ&hl=en) at [SRCD](https://www.srcd.org/event/srcd-2025-biennial-meeting/)</font>
 
-<font size="-1">**Collaborators:** [Ruthe Foushee](https://www.newschool.edu/nssr/faculty/ruthe-foushee/) & [Penny Brown](https://www.mpi.nl/people/brown-penelope)</font>
+<font size="-1">**Collaborators:** [Tianlin Wang](https://www.albany.edu/education/faculty/tianlin-wang)</font>

@@ -65,9 +65,11 @@ width="65%" height="225px">
 </embed> 
 </center>
 
-[2] Jin, Y., Foushee, R., **Casey, K.**, & Casillas, M. (2024). <span style="color:#9ea6a2">Developmental change in acquiring overhearable words within naturalistic contexts.</span> Poster presented at the Boston University Conference on Language Development. Boston, MA, USA.
+[2] Sun, Q.*, Huang, C.*, **Casey, K.**, & Wang, T. (2022). <span style="color:#9ea6a2">Rates of gender representation in children’s literature across cultures: Comparison of US vs. Chinese children’s books.</span> Poster presented at the Biennial Meeting of the Society for Research in Child Development. Minneapolis, MN, USA.
 
-[3] **Casey, K.**, & Casillas, M. (2023). <span style="color:#9ea6a2">Multimodal predictors of early object noun recognition in Tseltal.</span> Poster presented at the Boston University Conference on Language Development. Boston, MA, USA.  <a href="/posters/Casey-Casillas-BUCLD2023.pdf" class="button" target="_blank">poster</a>
+[3] Jin, Y., Foushee, R., **Casey, K.**, & Casillas, M. (2024). <span style="color:#9ea6a2">Developmental change in acquiring overhearable words within naturalistic contexts.</span> Poster presented at the Boston University Conference on Language Development. Boston, MA, USA.
+
+[4] **Casey, K.**, & Casillas, M. (2023). <span style="color:#9ea6a2">Multimodal predictors of early object noun recognition in Tseltal.</span> Poster presented at the Boston University Conference on Language Development. Boston, MA, USA.  <a href="/posters/Casey-Casillas-BUCLD2023.pdf" class="button" target="_blank">poster</a>
 <center>
 
 <embed src="/posters/Casey-Casillas-BUCLD2023.pdf#toolbar=0&navpanes=0&scrollbar=0"
@@ -75,9 +77,9 @@ width="65%" height="225px">
 </embed> 
 </center>
 
-[4] **Casey, K.**, & Casillas, M. (2023). <span style="color:#9ea6a2">Multimodal predictors of early object noun recognition in Tseltal.</span> Poster presented at Many Paths to Language. Nijmegen, Netherlands.  <a href="/abstracts/Casey-Casillas-MPaL2023.pdf" class="button" target="_blank">abstract</a>
+[5] **Casey, K.**, & Casillas, M. (2023). <span style="color:#9ea6a2">Multimodal predictors of early object noun recognition in Tseltal.</span> Poster presented at Many Paths to Language. Nijmegen, Netherlands.  <a href="/abstracts/Casey-Casillas-MPaL2023.pdf" class="button" target="_blank">abstract</a>
 
-[5] **Casey, K.**, & Casillas, M. (2022). <span style="color:#9ea6a2">From doggy to dog: Developmental shifts in children’s use of register-specific words.</span> Poster presented at the Boston University Conference on Language Development. Boston, MA, USA.  <a href="/posters/Casey-Casillas-BUCLD2022.pdf" class="button" target="_blank">poster</a>
+[6] **Casey, K.**, & Casillas, M. (2022). <span style="color:#9ea6a2">From doggy to dog: Developmental shifts in children’s use of register-specific words.</span> Poster presented at the Boston University Conference on Language Development. Boston, MA, USA.  <a href="/posters/Casey-Casillas-BUCLD2022.pdf" class="button" target="_blank">poster</a>
 <center>
 
 <embed src="/posters/Casey-Casillas-BUCLD2022.pdf#toolbar=0&navpanes=0&scrollbar=0"
@@ -85,9 +87,9 @@ width="65%" height="225px">
 </embed> 
 </center>
 
-[6] Sun, Q., Huang, C., **Casey, K.**, Cooper Borkenhagen, M., & Wang, T. (2022). <span style="color:#9ea6a2">Rates of gender representation in children’s literature across cultures: A comparison of US vs. Chinese children’s books.</span> Poster presented at the Annual Meeting of the Cognitive Science Society. Toronto, ON, Canada.  <a href="/abstracts/Sun-et-al-CogSci2022.pdf" class="button" target="_blank">abstract</a>
+[7] Sun, Q., Huang, C., **Casey, K.**, Cooper Borkenhagen, M., & Wang, T. (2022). <span style="color:#9ea6a2">Rates of gender representation in children’s literature across cultures: A comparison of US vs. Chinese children’s books.</span> Poster presented at the Annual Meeting of the Cognitive Science Society. Toronto, ON, Canada.  <a href="/abstracts/Sun-et-al-CogSci2022.pdf" class="button" target="_blank">abstract</a>
 
-[7] Scaff, C., **Casey, K.**, Mohammed-Norgan, M., Guillu, A., Hsieh, E., Bo, H., & Casillas, M. (2022). <span style="color:#9ea6a2">Using daylong recordings to characterize sleep and speech activities in three subsistence populations.</span> Poster presented at the International Congress on Infant Studies. Ottawa, ON, Canada. <a href="/posters/Scaff-et-al-ICIS2022.pdf" class="button" target="_blank">poster</a>
+[8] Scaff, C., **Casey, K.**, Mohammed-Norgan, M., Guillu, A., Hsieh, E., Bo, H., & Casillas, M. (2022). <span style="color:#9ea6a2">Using daylong recordings to characterize sleep and speech activities in three subsistence populations.</span> Poster presented at the International Congress on Infant Studies. Ottawa, ON, Canada. <a href="/posters/Scaff-et-al-ICIS2022.pdf" class="button" target="_blank">poster</a>
 
 <center>
 <embed src="/posters/Scaff-et-al-ICIS2022.pdf#toolbar=0&navpanes=0&scrollbar=0"
@@ -95,8 +97,8 @@ width="65%" height="225px">
 </embed> 
 </center>
 
-[8] Sun, Q., Huang, C., **Casey, K.**, Cooper Borkenhagen, M., & Wang, T. (2022). <span style="color:#9ea6a2">Rates of gender representation in children’s literature across cultures: A comparison of US vs. Chinese children’s books.</span> Poster presented at the Biennial Meeting of the Cognitive Development Society. Madison, WI, USA.
+[9] Sun, Q., Huang, C., **Casey, K.**, Cooper Borkenhagen, M., & Wang, T. (2022). <span style="color:#9ea6a2">Rates of gender representation in children’s literature across cultures: A comparison of US vs. Chinese children’s books.</span> Poster presented at the Biennial Meeting of the Cognitive Development Society. Madison, WI, USA.
 
-[9] Baek, S., Marques, S., **Casey, K.**, Testerman, M., McGill, F., & Emberson, L. (2021). <span style="color:#9ea6a2">Attrition rate in infant fNIRS research: A meta-analysis.</span> Poster presented at the Biennial Meeting of the Society for Functional Near Infrared Spectroscopy (fNIRS). Virtual. 
+[10] Baek, S., Marques, S., **Casey, K.**, Testerman, M., McGill, F., & Emberson, L. (2021). <span style="color:#9ea6a2">Attrition rate in infant fNIRS research: A meta-analysis.</span> Poster presented at the Biennial Meeting of the Society for Functional Near Infrared Spectroscopy (fNIRS). Virtual. 
 
-[10] Aulet, L. S., **Casey, K.**, & Lourenco, S. F. (2019). <span style="color:#9ea6a2">Number bias during categorization is driven by relative discriminability, not universal preference.</span> Poster presented at the Biennial Meeting of the Cognitive Development Society. Louisville, KY, USA.
+[11] Aulet, L. S., **Casey, K.**, & Lourenco, S. F. (2019). <span style="color:#9ea6a2">Number bias during categorization is driven by relative discriminability, not universal preference.</span> Poster presented at the Biennial Meeting of the Cognitive Development Society. Louisville, KY, USA.

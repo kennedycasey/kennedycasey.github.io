@@ -4,17 +4,17 @@ title = "Papers"
 
 ## Papers
 
-#### Preprints
-
-Casillas, M., & **Casey, K.** (in press). <span style="color:#9ea6a2">Daylong egocentric recordings in small- and large-scale language communities: A practical introduction</span>. _Advances in Child Development and Behavior_ (Vol. 66).
-
-<a href="https://osf.io/preprints/psyarxiv/b3jxs" class="button" target="_blank">preprint</a>
-
 #### Journal Articles
+
+Casillas, M., Foushee, R., Gómez Pérez, H., Méndez Girón, J., Polian G., Casey, K., & Brown,
+P. (2025). <span style="color:#9ea6a2">A vocabulary checklist for early lexical development in Tseltal.</span> _Language Development Research, 5_(3), 245–275. 
+
+<a href="papers/casillas2025vocabulary.pdf" class="button" target="_blank">pdf</a>
+<a href="http://doi.org/10.34842/ldr2025-862" class="button" target="_blank">doi</a>
 
 **Casey, K.**, Potter, C. E., Lew-Williams, C., & Wojcik, E. H. (2023). <span style="color:#9ea6a2">Moving beyond “nouns in the lab”: Using naturalistic data to understand why infants’ first words include uh-oh and hi</span>. _Developmental Psychology, 59_(11), 2162-2173.
 
-<a href="https://psyarxiv.com/xbyr3/" class="button" target="_blank">preprint</a>
+<a href="papers/casey2023moving.pdf" class="button" target="_blank">pdf</a>
 <a href="https://doi.org/10.1037/dev0001630" class="button" target="_blank">doi</a>
 <a href="https://osf.io/tdbqn/" class="button" target="_blank"> data</a>
 
@@ -45,3 +45,10 @@ Baek, S., Marques, S., **Casey, K.**, Testerman, M., McGill, F., & Emberson, L. 
 <a href="https://escholarship.org/uc/item/6wx2x30s" class="button" target="_blank">doi</a>
 <a href="https://github.com/kennedycasey/daylong-object-ids" class="button" target="_blank"> data</a>
 <a href="https://aclew.shinyapps.io/CogSci-TSE-ROS-objects/" class="button" target="_blank"> shiny app</a>
+
+#### Book chapters
+
+Casillas, M., & **Casey, K.** (2024). <span style="color:#9ea6a2">Daylong egocentric recordings in small- and large-scale language communities: A practical introduction</span>. In C. Yu, & J. J. Lockman (Eds.), _Advances in Child Development and Behavior_ (Vol. 66, pp. 29-53). 
+
+<a href="/papers/casillas2024daylong.pdf" class="button" target="_blank">pdf</a> 
+<a href="https://doi.org/10.1016/bs.acdb.2024.05.002" class="button" target="_blank">doi</a>

@@ -5,34 +5,36 @@ title = "Presentations"
 ## Presentations
 
 ### Conference talks
-[1] **Casey, K.**, & Lew-Williams, C. (2024). <span style="color:#9ea6a2">Contending with word form variation in early word learning.</span> Talk presented at the Boston University Conference on Language Development. Boston, MA, USA.
+[1] **Casey, K.**, Elmlinger, S. L., & Lew-Williams, C. (2025). <span style="color:#9ea6a2">Exploring the relationship between turn-taking and children’s learning of individual words.</span> Talk presented at the Boston University Conference on Language Development. Boston, MA, USA.
 
-[2] Casillas, M., Foushee, R., & **Casey, K.** (2024). <span style="color:#9ea6a2">Tseltal children show a verb bias in early vocabulary development.</span> Talk presented at the Boston University Conference on Language Development. Boston, MA, USA.
+[2] **Casey, K.**, & Lew-Williams, C. (2024). <span style="color:#9ea6a2">Contending with word form variation in early word learning.</span> Talk presented at the Boston University Conference on Language Development. Boston, MA, USA.
 
-[3] Casillas, M., & **Casey, K.** (2024). <span style="color:#9ea6a2">Multimodal and linguistic factors shaping lexical development in Tenejapan Tseltal.</span> Talk presented at Societas Linguistica Europaea. Helsinki, Finland.
+[3] Casillas, M., Foushee, R., & **Casey, K.** (2024). <span style="color:#9ea6a2">Tseltal children show a verb bias in early vocabulary development.</span> Talk presented at the Boston University Conference on Language Development. Boston, MA, USA.
 
-[4] **Casey, K.**, & Casillas, M. (2024). <span style="color:#9ea6a2">Object handling predicts age of noun acquisition in a Tseltal Mayan community.</span> Talk presented at the International Association for the Study of Child Language. Prague, Czech Republic.  <a href="/slides/Casey-Casillas-IASCL2024.pdf" class="button" target="_blank">slides</a>
+[4] Casillas, M., & **Casey, K.** (2024). <span style="color:#9ea6a2">Multimodal and linguistic factors shaping lexical development in Tenejapan Tseltal.</span> Talk presented at Societas Linguistica Europaea. Helsinki, Finland.
+
+[5] **Casey, K.**, & Casillas, M. (2024). <span style="color:#9ea6a2">Object handling predicts age of noun acquisition in a Tseltal Mayan community.</span> Talk presented at the International Association for the Study of Child Language. Prague, Czech Republic.  <a href="/slides/Casey-Casillas-IASCL2024.pdf" class="button" target="_blank">slides</a>
 <center>
 <embed src="/slides/Casey-Casillas-IASCL2024.pdf#toolbar=0&navpanes=0&scrollbar=0"
 width="65%" height="255px">
 </embed></center>
 
-[5] Casillas, M., **Casey, K.**, Foushee, R., & Brown, P. (2024). <span style="color:#9ea6a2">Verb bias but no noun bias in early Tseltal lexical development.</span> Talk presented at the International Association for the Study of Child Language. Prague, Czech Republic.
+[6] Casillas, M., **Casey, K.**, Foushee, R., & Brown, P. (2024). <span style="color:#9ea6a2">Verb bias but no noun bias in early Tseltal lexical development.</span> Talk presented at the International Association for the Study of Child Language. Prague, Czech Republic.
 
-[6] Jin, Y., **Casey, K.**, Foushee, R., & Casillas, M. (2024). <span style="color:#9ea6a2">What do US children overhear? Evidence from daylong recordings and parental reports.</span> Talk presented at the International Association for the Study of Child Language. Prague, Czech Republic.
+[7] Jin, Y., **Casey, K.**, Foushee, R., & Casillas, M. (2024). <span style="color:#9ea6a2">What do US children overhear? Evidence from daylong recordings and parental reports.</span> Talk presented at the International Association for the Study of Child Language. Prague, Czech Republic.
 
-[7] Jin, Y., Méndez Girón, J., Polian G., **Casey, K.**, & Casillas, M. (2023). <span style="color:#9ea6a2">Vocal maturity predicts adult responsiveness in a Tseltal Mayan community.</span> Talk presented at the Boston University Conference on Language Development. Boston, MA, USA.  <a href="/abstracts/Jin-et-al-BUCLD2023.pdf" class="button" target="_blank">abstract</a>
+[8] Jin, Y., Méndez Girón, J., Polian G., **Casey, K.**, & Casillas, M. (2023). <span style="color:#9ea6a2">Vocal maturity predicts adult responsiveness in a Tseltal Mayan community.</span> Talk presented at the Boston University Conference on Language Development. Boston, MA, USA.  <a href="/abstracts/Jin-et-al-BUCLD2023.pdf" class="button" target="_blank">abstract</a>
 
-[8] Jin, Y., Méndez Girón, J., Polian G., **Casey, K.**, & Casillas, M. (2023). <span style="color:#9ea6a2">Vocal maturity predicts adult responsiveness in a Tseltal Mayan community.</span> Talk presented at Many Paths to Language. Nijmegen, Netherlands.
+[9] Jin, Y., Méndez Girón, J., Polian G., **Casey, K.**, & Casillas, M. (2023). <span style="color:#9ea6a2">Vocal maturity predicts adult responsiveness in a Tseltal Mayan community.</span> Talk presented at Many Paths to Language. Nijmegen, Netherlands.
 
-[9] **Casey, K.**, Elliott, M., Mickiewicz, E., Silva Mandujano, A., Shorter, K., Duquette, M., Bergelson, E., & Casillas, M. (2022). <span style="color:#9ea6a2">Sticks, leaves, buckets, and bowls: Distributional patterns of children’s at-home object handling in two subsistence societies.</span> Talk presented at the Annual Meeting of the Cognitive Science Society. Toronto, ON, Canada.  <a href="/papers/casey2022sticks.pdf" class="button" target="_blank">proceedings</a>
+[10] **Casey, K.**, Elliott, M., Mickiewicz, E., Silva Mandujano, A., Shorter, K., Duquette, M., Bergelson, E., & Casillas, M. (2022). <span style="color:#9ea6a2">Sticks, leaves, buckets, and bowls: Distributional patterns of children’s at-home object handling in two subsistence societies.</span> Talk presented at the Annual Meeting of the Cognitive Science Society. Toronto, ON, Canada.  <a href="/papers/casey2022sticks.pdf" class="button" target="_blank">proceedings</a>
 <a href="/slides/Casey-et-al-CogSci2022.pdf" class="button" target="_blank">slides</a>
 <center>
 <embed src="/slides/Casey-et-al-CogSci2022.pdf#toolbar=0&navpanes=0&scrollbar=0"
 width="65%" height="255px">
 </embed></center>
 
-[10] **Casey, K.**, & Casillas, M. (2022). <span style="color:#9ea6a2">From doggy to dog: Developmental shifts in children’s use of register-specific words.</span> Talk presented at the Annual Meeting of the Cognitive Science Society. Toronto, ON, Canada.  <a href="/papers/casey2022doggy.pdf" class="button" target="_blank">proceedings</a>
+[11] **Casey, K.**, & Casillas, M. (2022). <span style="color:#9ea6a2">From doggy to dog: Developmental shifts in children’s use of register-specific words.</span> Talk presented at the Annual Meeting of the Cognitive Science Society. Toronto, ON, Canada.  <a href="/papers/casey2022doggy.pdf" class="button" target="_blank">proceedings</a>
 <a href="/slides/Casey-Casillas-CogSci2022.pdf" class="button" target="_blank">slides</a>
 <center>
 
@@ -41,9 +43,9 @@ width="65%" height="255px">
 </embed> 
 </center>
 
-[11] **Casey, K.**, Elliott, M., Mickiewicz, E., Shorter, K., & Casillas, M. (2022). <span style="color:#9ea6a2">Capturing daylong object handling patterns in two small-scale communities.</span> Talk presented at the International Congress on Infant Studies. Ottawa, ON, Canada.
+[12] **Casey, K.**, Elliott, M., Mickiewicz, E., Shorter, K., & Casillas, M. (2022). <span style="color:#9ea6a2">Capturing daylong object handling patterns in two small-scale communities.</span> Talk presented at the International Congress on Infant Studies. Ottawa, ON, Canada.
 
-[12] **Casey, K.**, & Casillas, M. (2022). <span style="color:#9ea6a2">Children’s shift from CDS to ADS vocabulary across early childhood.</span> Talk presented at the Biennial Meeting of the Cognitive Development Society. Madison, WI, USA.
+[13] **Casey, K.**, & Casillas, M. (2022). <span style="color:#9ea6a2">Children’s shift from CDS to ADS vocabulary across early childhood.</span> Talk presented at the Biennial Meeting of the Cognitive Development Society. Madison, WI, USA.
 
 [13] **Casey, K.**, Potter, C. E., Nencheva, M., Lew-Williams, C., & Wojcik, E. H. (2021). <span style="color:#9ea6a2">Moving beyond “nouns in the lab”: Using naturalistic data to understand why infants’ first words include uh-oh and hi.</span> Talk presented at the Boston University Conference on Language Development. Virtual. <a href="/slides/Casey-et-al-BUCLD2021.pdf" class="button" target="_blank">slides</a>
 <center>

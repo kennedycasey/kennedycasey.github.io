@@ -1,15 +1,15 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Resources on Kennedy Casey</title><link>https://kennedycasey.github.io/resources/</link><description>Recent content in Resources on Kennedy Casey</description><generator>Hugo</generator><language>en</language><atom:link href="https://kennedycasey.github.io/resources/index.xml" rel="self" type="application/rss+xml"/><item><title/><link>https://kennedycasey.github.io/resources/childes/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://kennedycasey.github.io/resources/childes/</guid><description>&lt;!DOCTYPE html>
-&lt;html xmlns="http://www.w3.org/1999/xhtml" lang="en" xml:lang="en">&lt;head>
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Resources on Kennedy Casey</title><link>https://kennedycasey.github.io/resources/</link><description>Recent content in Resources on Kennedy Casey</description><generator>Hugo</generator><language>en</language><atom:link href="https://kennedycasey.github.io/resources/index.xml" rel="self" type="application/rss+xml"/><item><title/><link>https://kennedycasey.github.io/resources/childes/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://kennedycasey.github.io/resources/childes/</guid><description>&lt;!DOCTYPE html&gt;
+&lt;html xmlns="http://www.w3.org/1999/xhtml" lang="en" xml:lang="en"&gt;&lt;head&gt;
 
-&lt;meta charset="utf-8">
-&lt;meta name="generator" content="quarto-1.5.33">
+&lt;meta charset="utf-8"&gt;
+&lt;meta name="generator" content="quarto-1.5.33"&gt;
 
-&lt;meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
+&lt;meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes"&gt;
 
-&lt;meta name="dcterms.date" content="2024-05-13">
+&lt;meta name="dcterms.date" content="2024-05-13"&gt;
 
-&lt;title>PSY504 Final Project Tutorial&lt;/title>
-&lt;style>
+&lt;title&gt;PSY504 Final Project Tutorial&lt;/title&gt;
+&lt;style&gt;
 code{white-space: pre-wrap;}
 span.smallcaps{font-variant: small-caps;}
 div.columns{display: flex; gap: min(4vw, 1.5em);}
@@ -22,25 +22,25 @@ ul.task-list li input[type="checkbox"] {
  vertical-align: middle;
 }
 /* CSS for syntax highlighting */
-pre > code.sourceCode { white-space: pre; position: relative; }
-pre > code.sourceCode > span { line-height: 1.25; }
-pre > code.sourceCode > span:empty { height: 1.2em; }
+pre &gt; code.sourceCode { white-space: pre; position: relative; }
+pre &gt; code.sourceCode &gt; span { line-height: 1.25; }
+pre &gt; code.sourceCode &gt; span:empty { height: 1.2em; }
 .sourceCode { overflow: visible; }
-code.sourceCode > span { color: inherit; text-decoration: inherit; }
+code.sourceCode &gt; span { color: inherit; text-decoration: inherit; }
 div.sourceCode { margin: 1em 0; }
 pre.sourceCode { margin: 0; }
 @media screen {
 div.sourceCode { overflow: auto; }
 }
 @media print {
-pre > code.sourceCode { white-space: pre-wrap; }
-pre > code.sourceCode > span { display: inline-block; text-indent: -5em; padding-left: 5em; }
+pre &gt; code.sourceCode { white-space: pre-wrap; }
+pre &gt; code.sourceCode &gt; span { display: inline-block; text-indent: -5em; padding-left: 5em; }
 }
 pre.numberSource code
  { counter-reset: source-line 0; }
-pre.numberSource code > span
+pre.numberSource code &gt; span
  { position: relative; left: -4em; counter-increment: source-line; }
-pre.numberSource code > span > a:first-child::before
+pre.numberSource code &gt; span &gt; a:first-child::before
  { content: counter(source-line);
  position: relative; left: -1em; text-align: right; vertical-align: baseline;
  border: none; display: inline-block;
@@ -53,44 +53,44 @@ pre.numberSource { margin-left: 3em; padding-left: 4px; }
 div.sourceCode
  { }
 @media screen {
-pre > code.sourceCode > span > a:first-child::before { text-decoration: underline; }
+pre &gt; code.sourceCode &gt; span &gt; a:first-child::before { text-decoration: underline; }
 }
-&lt;/style>
+&lt;/style&gt;
 
 
-&lt;script src="index_files/libs/clipboard/clipboard.min.js">&lt;/script>
-&lt;script src="index_files/libs/quarto-html/quarto.js">&lt;/script>
-&lt;script src="index_files/libs/quarto-html/popper.min.js">&lt;/script>
-&lt;script src="index_files/libs/quarto-html/tippy.umd.min.js">&lt;/script>
-&lt;script src="index_files/libs/quarto-html/anchor.min.js">&lt;/script>
-&lt;link href="index_files/libs/quarto-html/tippy.css" rel="stylesheet">
-&lt;link href="index_files/libs/quarto-html/quarto-syntax-highlighting.css" rel="stylesheet" id="quarto-text-highlighting-styles">
-&lt;script src="index_files/libs/bootstrap/bootstrap.min.js">&lt;/script>
-&lt;link href="index_files/libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
-&lt;link href="index_files/libs/bootstrap/bootstrap.min.css" rel="stylesheet" id="quarto-bootstrap" data-mode="light">
-&lt;script src="index_files/libs/kePrint-0.0.1/kePrint.js">&lt;/script>
-&lt;link href="index_files/libs/lightable-0.0.1/lightable.css" rel="stylesheet">
+&lt;script src="index_files/libs/clipboard/clipboard.min.js"&gt;&lt;/script&gt;
+&lt;script src="index_files/libs/quarto-html/quarto.js"&gt;&lt;/script&gt;
+&lt;script src="index_files/libs/quarto-html/popper.min.js"&gt;&lt;/script&gt;
+&lt;script src="index_files/libs/quarto-html/tippy.umd.min.js"&gt;&lt;/script&gt;
+&lt;script src="index_files/libs/quarto-html/anchor.min.js"&gt;&lt;/script&gt;
+&lt;link href="index_files/libs/quarto-html/tippy.css" rel="stylesheet"&gt;
+&lt;link href="index_files/libs/quarto-html/quarto-syntax-highlighting.css" rel="stylesheet" id="quarto-text-highlighting-styles"&gt;
+&lt;script src="index_files/libs/bootstrap/bootstrap.min.js"&gt;&lt;/script&gt;
+&lt;link href="index_files/libs/bootstrap/bootstrap-icons.css" rel="stylesheet"&gt;
+&lt;link href="index_files/libs/bootstrap/bootstrap.min.css" rel="stylesheet" id="quarto-bootstrap" data-mode="light"&gt;
+&lt;script src="index_files/libs/kePrint-0.0.1/kePrint.js"&gt;&lt;/script&gt;
+&lt;link href="index_files/libs/lightable-0.0.1/lightable.css" rel="stylesheet"&gt;
 
 
-&lt;/head>
+&lt;/head&gt;
 
-&lt;body class="fullcontent">
+&lt;body class="fullcontent"&gt;
 
-&lt;div id="quarto-content" class="page-columns page-rows-contents page-layout-article">
+&lt;div id="quarto-content" class="page-columns page-rows-contents page-layout-article"&gt;
 
-&lt;main class="content" id="quarto-document-content">
+&lt;main class="content" id="quarto-document-content"&gt;
 
-&lt;header id="title-block-header" class="quarto-title-block default">
-&lt;div class="quarto-title">
-&lt;h1 class="title">PSY504 Final Project Tutorial&lt;/h1>
-&lt;/div>
+&lt;header id="title-block-header" class="quarto-title-block default"&gt;
+&lt;div class="quarto-title"&gt;
+&lt;h1 class="title"&gt;PSY504 Final Project Tutorial&lt;/h1&gt;
+&lt;/div&gt;
 
 
 
-&lt;div class="quarto-title-meta">
+&lt;div class="quarto-title-meta"&gt;
 
  
- &lt;div>
- &lt;div class="quarto-title-meta-heading">Published&lt;/div>
- &lt;div class="quarto-title-meta-contents">
- &lt;p class="date">May 13, 2024&lt;/p></description></item></channel></rss>
+ &lt;div&gt;
+ &lt;div class="quarto-title-meta-heading"&gt;Published&lt;/div&gt;
+ &lt;div class="quarto-title-meta-contents"&gt;
+ &lt;p class="date"&gt;May 13, 2024&lt;/p&gt;</description></item></channel></rss>

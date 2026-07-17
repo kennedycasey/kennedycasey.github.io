@@ -5,8 +5,21 @@ title = "Papers"
 ## Papers
 
 #### Journal Articles
+Jin, Y., Foushee, R., **Casey, K.**, & Casillas, M. (in press). Developmental change in US children’s acquisition of overhearable words from naturalistic contexts. _Child Development._
 
-Casillas, M., Foushee, R., Gómez Pérez, H., Méndez Girón, J., Polian G., Casey, K., & Brown,
+**Casey, K.**, & Lew-Williams, C. (2026). <span style="color:#9ea6a2">English-hearing toddlers learn words from consistent and variable labels.</span> _Cognition, 276_, 106647.
+
+<a href="papers/casey2026english.pdf" class="button" target="_blank">pdf</a>
+<a href="https://doi.org/10.1016/j.cognition.2026.106647" class="button" target="_blank">doi</a>
+<a href="https://github.com/kennedycasey/LexVar" class="button" target="_blank"> data</a>
+
+**Casey, K.**, Elliott, M., Mickiewicz, E.+, Bergelson, E., & Casillas, M. (2026). <span style="color:#9ea6a2">Daylong patterns of object-centric interactions in two subsistence societies.</span> _Infant Behavior and Development, 83_, 102197. 
+
+<a href="papers/casey2026daylong.pdf" class="button" target="_blank">pdf</a>
+<a href="https://doi.org/10.1016/j.infbeh.2026.102197" class="button" target="_blank">doi</a>
+<a href="https://github.com/kennedycasey/daylong-object-handling" class="button" target="_blank"> data</a>
+
+Casillas, M., Foushee, R., Gómez Pérez, H., Méndez Girón, J., Polian G., **Casey, K.**, & Brown,
 P. (2025). <span style="color:#9ea6a2">A vocabulary checklist for early lexical development in Tseltal.</span> _Language Development Research, 5_(3), 245–275. 
 
 <a href="papers/casillas2025vocabulary.pdf" class="button" target="_blank">pdf</a>

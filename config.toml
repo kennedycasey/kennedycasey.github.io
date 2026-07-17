@@ -13,13 +13,13 @@ googleAnalytics = ""  # add your tracking id
   favicon = "favicon.ico"  # path to a .ico to use as favicon
   logo = ""  # url or path to a logo to put in the header
   [params.footer]
-    text = "© Copyright 2024 Kennedy Casey"
+    text = "© Copyright 2026 Kennedy Casey"
   [params.style]
     fontFamily = "sans-serif"
     pageWidth = "750px"
     avatarSize = "185px"
     colorBlack = "#222222"
-    colorRed = "#68A61C"
+    colorRed = "#509f94"
   [[params.socialIcons]]
     icon = "fas fa-envelope"
     title = "Email"

@@ -30,7 +30,9 @@ googleAnalytics = ""  # add your tracking id
     url = "https://github.com/kennedycasey"
 
 [permalinks]
-  "/" = "/:filename"
+  papers = "/papers/:filename/"
+  presentations = "/presentations/:filename/"
+  resources = "/:filename/"
 
 [menu]
   [[menu.main]]
